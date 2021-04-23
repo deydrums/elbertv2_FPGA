@@ -1,0 +1,15 @@
+V3 9
+FL C:/Users/David/Documents/FPGA/displays/displays.vhd 2019/03/04.16:56:26 P.20131013
+FL C:/Users/David/Documents/FPGA/displays/main.vhd 2019/03/08.18:07:30 P.20131013
+FL C:/Users/dey_d/Documents/FPGA/displays/displays.vhd 2019/03/04.16:56:26 P.20131013
+EN work/displays 1581520349 \
+      FL C:/Users/dey_d/Documents/FPGA/displays/displays.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/displays/Behavioral 1581520350 \
+      FL C:/Users/dey_d/Documents/FPGA/displays/displays.vhd EN work/displays 1581520349
+FL C:/Users/dey_d/Documents/FPGA/displays/main.vhd 2019/03/08.18:07:30 P.20131013
+EN work/main 1581520351 FL C:/Users/dey_d/Documents/FPGA/displays/main.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/main/Behavioral 1581520352 \
+      FL C:/Users/dey_d/Documents/FPGA/displays/main.vhd EN work/main 1581520351 \
+      CP displays

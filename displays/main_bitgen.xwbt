@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\dey_d\Documents\FPGA\displays\main.ncd
+OUTFILE=C:\Users\dey_d\Documents\FPGA\displays\main.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-5tq144
+WORKINGDIR=C:\Users\dey_d\Documents\FPGA\displays
+LICENSE=WebPack
+USER_INFO=__0_0_0
