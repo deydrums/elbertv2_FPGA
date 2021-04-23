@@ -1,0 +1,9 @@
+V3 4
+FL "C:/Users/David/Documents/FPGA/8 bits/Contador/Contador.vhd" 2018/12/15.16:24:03 P.20131013
+FL "C:/Users/dey_d/Documents/FPGA/8 bits/Contador/Contador.vhd" 2018/12/15.16:24:03 P.20131013
+EN work/CONTA_8_BITS 1581455999 \
+      FL "C:/Users/dey_d/Documents/FPGA/8 bits/Contador/Contador.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177
+AR work/CONTA_8_BITS/Behavioral 1581456000 \
+      FL "C:/Users/dey_d/Documents/FPGA/8 bits/Contador/Contador.vhd" \
+      EN work/CONTA_8_BITS 1581455999

@@ -1,0 +1,86 @@
+xst -intstyle ise -ifn "C:/Users/David/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.xst" -ofn "C:/Users/David/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Documents/FPGA/8 bits/elbertv2.ucf" -p xc3s50a-tq144-5 "CONTA_8_BITS.ngc" CONTA_8_BITS.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o CONTA_8_BITS_map.ncd CONTA_8_BITS.ngd CONTA_8_BITS.pcf 
+par -w -intstyle ise -ol high -t 1 CONTA_8_BITS_map.ncd CONTA_8_BITS.ncd CONTA_8_BITS.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CONTA_8_BITS.twx CONTA_8_BITS.ncd -o CONTA_8_BITS.twr CONTA_8_BITS.pcf 
+bitgen -intstyle ise -f CONTA_8_BITS.ut CONTA_8_BITS.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.xst" -ofn "C:/Users/David/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Documents/FPGA/8 bits/elbertv2.ucf" -p xc3s50a-tq144-5 "CONTA_8_BITS.ngc" CONTA_8_BITS.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o CONTA_8_BITS_map.ncd CONTA_8_BITS.ngd CONTA_8_BITS.pcf 
+par -w -intstyle ise -ol high -t 1 CONTA_8_BITS_map.ncd CONTA_8_BITS.ncd CONTA_8_BITS.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CONTA_8_BITS.twx CONTA_8_BITS.ncd -o CONTA_8_BITS.twr CONTA_8_BITS.pcf 
+bitgen -intstyle ise -f CONTA_8_BITS.ut CONTA_8_BITS.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.xst" -ofn "C:/Users/David/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Documents/FPGA/8 bits/elbertv2.ucf" -p xc3s50a-tq144-5 "CONTA_8_BITS.ngc" CONTA_8_BITS.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o CONTA_8_BITS_map.ncd CONTA_8_BITS.ngd CONTA_8_BITS.pcf 
+par -w -intstyle ise -ol high -t 1 CONTA_8_BITS_map.ncd CONTA_8_BITS.ncd CONTA_8_BITS.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CONTA_8_BITS.twx CONTA_8_BITS.ncd -o CONTA_8_BITS.twr CONTA_8_BITS.pcf 
+bitgen -intstyle ise -f CONTA_8_BITS.ut CONTA_8_BITS.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.xst" -ofn "C:/Users/David/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Documents/FPGA/8 bits/elbertv2.ucf" -p xc3s50a-tq144-5 "CONTA_8_BITS.ngc" CONTA_8_BITS.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o CONTA_8_BITS_map.ncd CONTA_8_BITS.ngd CONTA_8_BITS.pcf 
+par -w -intstyle ise -ol high -t 1 CONTA_8_BITS_map.ncd CONTA_8_BITS.ncd CONTA_8_BITS.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CONTA_8_BITS.twx CONTA_8_BITS.ncd -o CONTA_8_BITS.twr CONTA_8_BITS.pcf 
+bitgen -intstyle ise -f CONTA_8_BITS.ut CONTA_8_BITS.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.xst" -ofn "C:/Users/David/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Documents/FPGA/8 bits/elbertv2.ucf" -p xc3s50a-tq144-5 "CONTA_8_BITS.ngc" CONTA_8_BITS.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o CONTA_8_BITS_map.ncd CONTA_8_BITS.ngd CONTA_8_BITS.pcf 
+par -w -intstyle ise -ol high -t 1 CONTA_8_BITS_map.ncd CONTA_8_BITS.ncd CONTA_8_BITS.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CONTA_8_BITS.twx CONTA_8_BITS.ncd -o CONTA_8_BITS.twr CONTA_8_BITS.pcf 
+bitgen -intstyle ise -f CONTA_8_BITS.ut CONTA_8_BITS.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.xst" -ofn "C:/Users/David/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Documents/FPGA/8 bits/elbertv2.ucf" -p xc3s50a-tq144-5 "CONTA_8_BITS.ngc" CONTA_8_BITS.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o CONTA_8_BITS_map.ncd CONTA_8_BITS.ngd CONTA_8_BITS.pcf 
+par -w -intstyle ise -ol high -t 1 CONTA_8_BITS_map.ncd CONTA_8_BITS.ncd CONTA_8_BITS.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CONTA_8_BITS.twx CONTA_8_BITS.ncd -o CONTA_8_BITS.twr CONTA_8_BITS.pcf 
+bitgen -intstyle ise -f CONTA_8_BITS.ut CONTA_8_BITS.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.xst" -ofn "C:/Users/David/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Documents/FPGA/8 bits/elbertv2.ucf" -p xc3s50a-tq144-5 "CONTA_8_BITS.ngc" CONTA_8_BITS.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o CONTA_8_BITS_map.ncd CONTA_8_BITS.ngd CONTA_8_BITS.pcf 
+par -w -intstyle ise -ol high -t 1 CONTA_8_BITS_map.ncd CONTA_8_BITS.ncd CONTA_8_BITS.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CONTA_8_BITS.twx CONTA_8_BITS.ncd -o CONTA_8_BITS.twr CONTA_8_BITS.pcf 
+bitgen -intstyle ise -f CONTA_8_BITS.ut CONTA_8_BITS.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.xst" -ofn "C:/Users/David/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Documents/FPGA/8 bits/elbertv2.ucf" -p xc3s50a-tq144-5 "CONTA_8_BITS.ngc" CONTA_8_BITS.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o CONTA_8_BITS_map.ncd CONTA_8_BITS.ngd CONTA_8_BITS.pcf 
+par -w -intstyle ise -ol high -t 1 CONTA_8_BITS_map.ncd CONTA_8_BITS.ncd CONTA_8_BITS.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CONTA_8_BITS.twx CONTA_8_BITS.ncd -o CONTA_8_BITS.twr CONTA_8_BITS.pcf 
+bitgen -intstyle ise -f CONTA_8_BITS.ut CONTA_8_BITS.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.xst" -ofn "C:/Users/David/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.xst" -ofn "C:/Users/David/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Documents/FPGA/8 bits/elbertv2.ucf" -p xc3s50a-tq144-5 "CONTA_8_BITS.ngc" CONTA_8_BITS.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o CONTA_8_BITS_map.ncd CONTA_8_BITS.ngd CONTA_8_BITS.pcf 
+par -w -intstyle ise -ol high -t 1 CONTA_8_BITS_map.ncd CONTA_8_BITS.ncd CONTA_8_BITS.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CONTA_8_BITS.twx CONTA_8_BITS.ncd -o CONTA_8_BITS.twr CONTA_8_BITS.pcf 
+bitgen -intstyle ise -f CONTA_8_BITS.ut CONTA_8_BITS.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.xst" -ofn "C:/Users/David/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Documents/FPGA/8 bits/elbertv2.ucf" -p xc3s50a-tq144-5 "CONTA_8_BITS.ngc" CONTA_8_BITS.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o CONTA_8_BITS_map.ncd CONTA_8_BITS.ngd CONTA_8_BITS.pcf 
+par -w -intstyle ise -ol high -t 1 CONTA_8_BITS_map.ncd CONTA_8_BITS.ncd CONTA_8_BITS.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CONTA_8_BITS.twx CONTA_8_BITS.ncd -o CONTA_8_BITS.twr CONTA_8_BITS.pcf 
+bitgen -intstyle ise -f CONTA_8_BITS.ut CONTA_8_BITS.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.xst" -ofn "C:/Users/David/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Documents/FPGA/8 bits/elbertv2.ucf" -p xc3s50a-tq144-5 "CONTA_8_BITS.ngc" CONTA_8_BITS.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o CONTA_8_BITS_map.ncd CONTA_8_BITS.ngd CONTA_8_BITS.pcf 
+par -w -intstyle ise -ol high -t 1 CONTA_8_BITS_map.ncd CONTA_8_BITS.ncd CONTA_8_BITS.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CONTA_8_BITS.twx CONTA_8_BITS.ncd -o CONTA_8_BITS.twr CONTA_8_BITS.pcf 
+bitgen -intstyle ise -f CONTA_8_BITS.ut CONTA_8_BITS.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.xst" -ofn "C:/Users/David/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Documents/FPGA/8 bits/elbertv2.ucf" -p xc3s50a-tq144-5 "CONTA_8_BITS.ngc" CONTA_8_BITS.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o CONTA_8_BITS_map.ncd CONTA_8_BITS.ngd CONTA_8_BITS.pcf 
+par -w -intstyle ise -ol high -t 1 CONTA_8_BITS_map.ncd CONTA_8_BITS.ncd CONTA_8_BITS.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CONTA_8_BITS.twx CONTA_8_BITS.ncd -o CONTA_8_BITS.twr CONTA_8_BITS.pcf 
+bitgen -intstyle ise -f CONTA_8_BITS.ut CONTA_8_BITS.ncd 
+xst -intstyle ise -ifn "C:/Users/dey_d/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.xst" -ofn "C:/Users/dey_d/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.syr" 
+xst -intstyle ise -ifn "C:/Users/dey_d/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.xst" -ofn "C:/Users/dey_d/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.syr" 
+xst -intstyle ise -ifn "C:/Users/dey_d/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.xst" -ofn "C:/Users/dey_d/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/dey_d/Documents/FPGA/8 bits/elbertv2.ucf" -p xc3s50a-tq144-5 "CONTA_8_BITS.ngc" CONTA_8_BITS.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o CONTA_8_BITS_map.ncd CONTA_8_BITS.ngd CONTA_8_BITS.pcf 
+par -w -intstyle ise -ol high -t 1 CONTA_8_BITS_map.ncd CONTA_8_BITS.ncd CONTA_8_BITS.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CONTA_8_BITS.twx CONTA_8_BITS.ncd -o CONTA_8_BITS.twr CONTA_8_BITS.pcf 
+xst -intstyle ise -ifn "C:/Users/dey_d/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.xst" -ofn "C:/Users/dey_d/Documents/FPGA/8 bits/Contador/CONTA_8_BITS.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/dey_d/Documents/FPGA/8 bits/elbertv2.ucf" -p xc3s50a-tq144-5 "CONTA_8_BITS.ngc" CONTA_8_BITS.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o CONTA_8_BITS_map.ncd CONTA_8_BITS.ngd CONTA_8_BITS.pcf 
+par -w -intstyle ise -ol high -t 1 CONTA_8_BITS_map.ncd CONTA_8_BITS.ncd CONTA_8_BITS.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml CONTA_8_BITS.twx CONTA_8_BITS.ncd -o CONTA_8_BITS.twr CONTA_8_BITS.pcf 
+bitgen -intstyle ise -f CONTA_8_BITS.ut CONTA_8_BITS.ncd 

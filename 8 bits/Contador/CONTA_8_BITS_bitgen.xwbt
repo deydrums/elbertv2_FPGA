@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\dey_d\Documents\FPGA\8 bits\Contador\CONTA_8_BITS.ncd
+OUTFILE=C:\Users\dey_d\Documents\FPGA\8 bits\Contador\CONTA_8_BITS.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-5tq144
+WORKINGDIR=C:\Users\dey_d\Documents\FPGA\8 bits\Contador
+LICENSE=WebPack
+USER_INFO=__0_0_0
