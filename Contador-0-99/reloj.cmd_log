@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/David/Documents/FPGA/Primera practica/ProyectoC/reloj.xst" -ofn "C:/Users/David/Documents/FPGA/Primera practica/ProyectoC/reloj.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc elbertv2.ucf -p xc3s50a-tq144-5 "reloj.ngc" reloj.ngd  

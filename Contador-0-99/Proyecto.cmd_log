@@ -1,0 +1,76 @@
+xst -intstyle ise -ifn "C:/Users/David/Documents/FPGA/Primera practica/ProyectoC/Proyecto.xst" -ofn "C:/Users/David/Documents/FPGA/Primera practica/ProyectoC/Proyecto.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc elbertv2.ucf -p xc3s50a-tq144-5 "Proyecto.ngc" Proyecto.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Proyecto_map.ncd Proyecto.ngd Proyecto.pcf 
+par -w -intstyle ise -ol high -t 1 Proyecto_map.ncd Proyecto.ncd Proyecto.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Proyecto.twx Proyecto.ncd -o Proyecto.twr Proyecto.pcf -ucf elbertv2.ucf 
+bitgen -intstyle ise -f Proyecto.ut Proyecto.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Documents/FPGA/Primera practica/ProyectoC/Proyecto.xst" -ofn "C:/Users/David/Documents/FPGA/Primera practica/ProyectoC/Proyecto.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc elbertv2.ucf -p xc3s50a-tq144-5 "Proyecto.ngc" Proyecto.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Proyecto_map.ncd Proyecto.ngd Proyecto.pcf 
+par -w -intstyle ise -ol high -t 1 Proyecto_map.ncd Proyecto.ncd Proyecto.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Proyecto.twx Proyecto.ncd -o Proyecto.twr Proyecto.pcf -ucf elbertv2.ucf 
+bitgen -intstyle ise -f Proyecto.ut Proyecto.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Documents/FPGA/Primera practica/ProyectoC/Proyecto.xst" -ofn "C:/Users/David/Documents/FPGA/Primera practica/ProyectoC/Proyecto.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc elbertv2.ucf -p xc3s50a-tq144-5 "Proyecto.ngc" Proyecto.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Proyecto_map.ncd Proyecto.ngd Proyecto.pcf 
+par -w -intstyle ise -ol high -t 1 Proyecto_map.ncd Proyecto.ncd Proyecto.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Proyecto.twx Proyecto.ncd -o Proyecto.twr Proyecto.pcf -ucf elbertv2.ucf 
+bitgen -intstyle ise -f Proyecto.ut Proyecto.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Documents/FPGA/Primera practica/ProyectoC/Proyecto.xst" -ofn "C:/Users/David/Documents/FPGA/Primera practica/ProyectoC/Proyecto.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc elbertv2.ucf -p xc3s50a-tq144-5 "Proyecto.ngc" Proyecto.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Proyecto_map.ncd Proyecto.ngd Proyecto.pcf 
+par -w -intstyle ise -ol high -t 1 Proyecto_map.ncd Proyecto.ncd Proyecto.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Proyecto.twx Proyecto.ncd -o Proyecto.twr Proyecto.pcf -ucf elbertv2.ucf 
+bitgen -intstyle ise -f Proyecto.ut Proyecto.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Documents/FPGA/Primera practica/ProyectoC/Proyecto.xst" -ofn "C:/Users/David/Documents/FPGA/Primera practica/ProyectoC/Proyecto.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc elbertv2.ucf -p xc3s50a-tq144-5 "Proyecto.ngc" Proyecto.ngd  
+xst -intstyle ise -ifn "C:/Users/David/Documents/FPGA/Primera practica/ProyectoC/Proyecto.xst" -ofn "C:/Users/David/Documents/FPGA/Primera practica/ProyectoC/Proyecto.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc elbertv2.ucf -p xc3s50a-tq144-5 "Proyecto.ngc" Proyecto.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Proyecto_map.ncd Proyecto.ngd Proyecto.pcf 
+par -w -intstyle ise -ol high -t 1 Proyecto_map.ncd Proyecto.ncd Proyecto.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Proyecto.twx Proyecto.ncd -o Proyecto.twr Proyecto.pcf -ucf elbertv2.ucf 
+bitgen -intstyle ise -f Proyecto.ut Proyecto.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Documents/FPGA/Primera practica/ProyectoC/Proyecto.xst" -ofn "C:/Users/David/Documents/FPGA/Primera practica/ProyectoC/Proyecto.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc elbertv2.ucf -p xc3s50a-tq144-5 "Proyecto.ngc" Proyecto.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Proyecto_map.ncd Proyecto.ngd Proyecto.pcf 
+par -w -intstyle ise -ol high -t 1 Proyecto_map.ncd Proyecto.ncd Proyecto.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Proyecto.twx Proyecto.ncd -o Proyecto.twr Proyecto.pcf -ucf elbertv2.ucf 
+bitgen -intstyle ise -f Proyecto.ut Proyecto.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Documents/FPGA/Primera practica/ProyectoC/Proyecto.xst" -ofn "C:/Users/David/Documents/FPGA/Primera practica/ProyectoC/Proyecto.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc elbertv2.ucf -p xc3s50a-tq144-5 "Proyecto.ngc" Proyecto.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Proyecto_map.ncd Proyecto.ngd Proyecto.pcf 
+par -w -intstyle ise -ol high -t 1 Proyecto_map.ncd Proyecto.ncd Proyecto.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Proyecto.twx Proyecto.ncd -o Proyecto.twr Proyecto.pcf -ucf elbertv2.ucf 
+bitgen -intstyle ise -f Proyecto.ut Proyecto.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Documents/FPGA/Primera practica/ProyectoC/Proyecto.xst" -ofn "C:/Users/David/Documents/FPGA/Primera practica/ProyectoC/Proyecto.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc elbertv2.ucf -p xc3s50a-tq144-5 "Proyecto.ngc" Proyecto.ngd  
+xst -intstyle ise -ifn "C:/Users/David/Documents/FPGA/Primera practica/ProyectoC/Proyecto.xst" -ofn "C:/Users/David/Documents/FPGA/Primera practica/ProyectoC/Proyecto.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc elbertv2.ucf -p xc3s50a-tq144-5 "Proyecto.ngc" Proyecto.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Proyecto_map.ncd Proyecto.ngd Proyecto.pcf 
+par -w -intstyle ise -ol high -t 1 Proyecto_map.ncd Proyecto.ncd Proyecto.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Proyecto.twx Proyecto.ncd -o Proyecto.twr Proyecto.pcf -ucf elbertv2.ucf 
+bitgen -intstyle ise -f Proyecto.ut Proyecto.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Documents/FPGA/Primera practica/ProyectoC/Proyecto.xst" -ofn "C:/Users/David/Documents/FPGA/Primera practica/ProyectoC/Proyecto.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc elbertv2.ucf -p xc3s50a-tq144-5 "Proyecto.ngc" Proyecto.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Proyecto_map.ncd Proyecto.ngd Proyecto.pcf 
+par -w -intstyle ise -ol high -t 1 Proyecto_map.ncd Proyecto.ncd Proyecto.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Proyecto.twx Proyecto.ncd -o Proyecto.twr Proyecto.pcf -ucf elbertv2.ucf 
+bitgen -intstyle ise -f Proyecto.ut Proyecto.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Documents/FPGA/Primera practica/ProyectoC/Proyecto.xst" -ofn "C:/Users/David/Documents/FPGA/Primera practica/ProyectoC/Proyecto.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc elbertv2.ucf -p xc3s50a-tq144-5 "Proyecto.ngc" Proyecto.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Proyecto_map.ncd Proyecto.ngd Proyecto.pcf 
+par -w -intstyle ise -ol high -t 1 Proyecto_map.ncd Proyecto.ncd Proyecto.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Proyecto.twx Proyecto.ncd -o Proyecto.twr Proyecto.pcf -ucf elbertv2.ucf 
+bitgen -intstyle ise -f Proyecto.ut Proyecto.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Documents/FPGA/Primera practica/ProyectoC/Proyecto.xst" -ofn "C:/Users/David/Documents/FPGA/Primera practica/ProyectoC/Proyecto.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc elbertv2.ucf -p xc3s50a-tq144-5 "Proyecto.ngc" Proyecto.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Proyecto_map.ncd Proyecto.ngd Proyecto.pcf 
+par -w -intstyle ise -ol high -t 1 Proyecto_map.ncd Proyecto.ncd Proyecto.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Proyecto.twx Proyecto.ncd -o Proyecto.twr Proyecto.pcf -ucf elbertv2.ucf 
+bitgen -intstyle ise -f Proyecto.ut Proyecto.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Documents/FPGA/Primera practica/ProyectoC/Proyecto.xst" -ofn "C:/Users/David/Documents/FPGA/Primera practica/ProyectoC/Proyecto.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc elbertv2.ucf -p xc3s50a-tq144-5 "Proyecto.ngc" Proyecto.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Proyecto_map.ncd Proyecto.ngd Proyecto.pcf 
+par -w -intstyle ise -ol high -t 1 Proyecto_map.ncd Proyecto.ncd Proyecto.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Proyecto.twx Proyecto.ncd -o Proyecto.twr Proyecto.pcf -ucf elbertv2.ucf 
+bitgen -intstyle ise -f Proyecto.ut Proyecto.ncd 

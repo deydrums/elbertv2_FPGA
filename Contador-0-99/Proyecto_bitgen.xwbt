@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\David\Documents\FPGA\Primera practica\ProyectoC\Proyecto.ncd
+OUTFILE=C:\Users\David\Documents\FPGA\Primera practica\ProyectoC\Proyecto.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-5tq144
+WORKINGDIR=C:\Users\David\Documents\FPGA\Primera practica\ProyectoC
+LICENSE=WebPack
+USER_INFO=__0_0_0

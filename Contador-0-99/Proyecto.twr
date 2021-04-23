@@ -1,0 +1,570 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml Proyecto.twx Proyecto.ncd -o Proyecto.twr Proyecto.pcf
+-ucf elbertv2.ucf
+
+Design file:              Proyecto.ncd
+Physical constraint file: Proyecto.pcf
+Device,package,speed:     xc3s50a,tq144,-5 (PRODUCTION 1.42 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+================================================================================
+Timing constraint: NET "CLK_BUFGP/IBUFG" PERIOD = 83.3333333 ns HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 2098 paths analyzed, 191 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   6.586ns.
+--------------------------------------------------------------------------------
+
+Paths for end point CONTA_RETRASO_14 (SLICE_X21Y12.SR), 26 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     76.747ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               CONTA_RETRASO_16 (FF)
+  Destination:          CONTA_RETRASO_14 (FF)
+  Requirement:          83.333ns
+  Data Path Delay:      6.583ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.003ns (0.015 - 0.018)
+  Source Clock:         CLK_BUFGP rising at 0.000ns
+  Destination Clock:    CLK_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: CONTA_RETRASO_16 to CONTA_RETRASO_14
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X21Y13.XQ      Tcko                  0.495   CONTA_RETRASO<16>
+                                                       CONTA_RETRASO_16
+    SLICE_X19Y12.G1      net (fanout=2)        1.086   CONTA_RETRASO<16>
+    SLICE_X19Y12.COUT    Topcyg                1.009   CONTA_DECENAS_or000011_wg_cy<3>
+                                                       CONTA_DECENAS_or000011_wg_lut<3>
+                                                       CONTA_DECENAS_or000011_wg_cy<3>
+    SLICE_X19Y13.CIN     net (fanout=1)        0.000   CONTA_DECENAS_or000011_wg_cy<3>
+    SLICE_X19Y13.COUT    Tbyp                  0.130   CONTA_DECENAS_or000011_wg_cy<5>
+                                                       CONTA_DECENAS_or000011_wg_cy<4>
+                                                       CONTA_DECENAS_or000011_wg_cy<5>
+    SLICE_X19Y14.CIN     net (fanout=1)        0.000   CONTA_DECENAS_or000011_wg_cy<5>
+    SLICE_X19Y14.XB      Tcinxb                0.216   CONTA_DECENAS_or000011_wg_cy<6>
+                                                       CONTA_DECENAS_or000011_wg_cy<6>
+    SLICE_X19Y17.G3      net (fanout=6)        1.104   CONTA_DECENAS_or000011_wg_cy<6>
+    SLICE_X19Y17.Y       Tilo                  0.561   CONTA_DECENAS_not0001
+                                                       CONTA_RETRASO_or00001
+    SLICE_X21Y12.SR      net (fanout=13)       1.549   CONTA_RETRASO_or0000
+    SLICE_X21Y12.CLK     Tsrck                 0.433   CONTA_RETRASO<14>
+                                                       CONTA_RETRASO_14
+    -------------------------------------------------  ---------------------------
+    Total                                      6.583ns (2.844ns logic, 3.739ns route)
+                                                       (43.2% logic, 56.8% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     76.770ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               CONTA_RETRASO_7 (FF)
+  Destination:          CONTA_RETRASO_14 (FF)
+  Requirement:          83.333ns
+  Data Path Delay:      6.537ns (Levels of Logic = 5)
+  Clock Path Skew:      -0.026ns (0.015 - 0.041)
+  Source Clock:         CLK_BUFGP rising at 0.000ns
+  Destination Clock:    CLK_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: CONTA_RETRASO_7 to CONTA_RETRASO_14
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X21Y8.YQ       Tcko                  0.524   CONTA_RETRASO<6>
+                                                       CONTA_RETRASO_7
+    SLICE_X19Y11.F2      net (fanout=2)        0.864   CONTA_RETRASO<7>
+    SLICE_X19Y11.COUT    Topcyf                1.026   CONTA_DECENAS_or000011_wg_cy<1>
+                                                       CONTA_DECENAS_or000011_wg_lut<0>
+                                                       CONTA_DECENAS_or000011_wg_cy<0>
+                                                       CONTA_DECENAS_or000011_wg_cy<1>
+    SLICE_X19Y12.CIN     net (fanout=1)        0.000   CONTA_DECENAS_or000011_wg_cy<1>
+    SLICE_X19Y12.COUT    Tbyp                  0.130   CONTA_DECENAS_or000011_wg_cy<3>
+                                                       CONTA_DECENAS_or000011_wg_cy<2>
+                                                       CONTA_DECENAS_or000011_wg_cy<3>
+    SLICE_X19Y13.CIN     net (fanout=1)        0.000   CONTA_DECENAS_or000011_wg_cy<3>
+    SLICE_X19Y13.COUT    Tbyp                  0.130   CONTA_DECENAS_or000011_wg_cy<5>
+                                                       CONTA_DECENAS_or000011_wg_cy<4>
+                                                       CONTA_DECENAS_or000011_wg_cy<5>
+    SLICE_X19Y14.CIN     net (fanout=1)        0.000   CONTA_DECENAS_or000011_wg_cy<5>
+    SLICE_X19Y14.XB      Tcinxb                0.216   CONTA_DECENAS_or000011_wg_cy<6>
+                                                       CONTA_DECENAS_or000011_wg_cy<6>
+    SLICE_X19Y17.G3      net (fanout=6)        1.104   CONTA_DECENAS_or000011_wg_cy<6>
+    SLICE_X19Y17.Y       Tilo                  0.561   CONTA_DECENAS_not0001
+                                                       CONTA_RETRASO_or00001
+    SLICE_X21Y12.SR      net (fanout=13)       1.549   CONTA_RETRASO_or0000
+    SLICE_X21Y12.CLK     Tsrck                 0.433   CONTA_RETRASO<14>
+                                                       CONTA_RETRASO_14
+    -------------------------------------------------  ---------------------------
+    Total                                      6.537ns (3.020ns logic, 3.517ns route)
+                                                       (46.2% logic, 53.8% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     76.858ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               CONTA_RETRASO_3 (FF)
+  Destination:          CONTA_RETRASO_14 (FF)
+  Requirement:          83.333ns
+  Data Path Delay:      6.443ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.032ns (0.015 - 0.047)
+  Source Clock:         CLK_BUFGP rising at 0.000ns
+  Destination Clock:    CLK_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: CONTA_RETRASO_3 to CONTA_RETRASO_14
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X21Y6.YQ       Tcko                  0.524   CONTA_RETRASO<2>
+                                                       CONTA_RETRASO_3
+    SLICE_X19Y12.F1      net (fanout=2)        0.900   CONTA_RETRASO<3>
+    SLICE_X19Y12.COUT    Topcyf                1.026   CONTA_DECENAS_or000011_wg_cy<3>
+                                                       CONTA_DECENAS_or000011_wg_lut<2>
+                                                       CONTA_DECENAS_or000011_wg_cy<2>
+                                                       CONTA_DECENAS_or000011_wg_cy<3>
+    SLICE_X19Y13.CIN     net (fanout=1)        0.000   CONTA_DECENAS_or000011_wg_cy<3>
+    SLICE_X19Y13.COUT    Tbyp                  0.130   CONTA_DECENAS_or000011_wg_cy<5>
+                                                       CONTA_DECENAS_or000011_wg_cy<4>
+                                                       CONTA_DECENAS_or000011_wg_cy<5>
+    SLICE_X19Y14.CIN     net (fanout=1)        0.000   CONTA_DECENAS_or000011_wg_cy<5>
+    SLICE_X19Y14.XB      Tcinxb                0.216   CONTA_DECENAS_or000011_wg_cy<6>
+                                                       CONTA_DECENAS_or000011_wg_cy<6>
+    SLICE_X19Y17.G3      net (fanout=6)        1.104   CONTA_DECENAS_or000011_wg_cy<6>
+    SLICE_X19Y17.Y       Tilo                  0.561   CONTA_DECENAS_not0001
+                                                       CONTA_RETRASO_or00001
+    SLICE_X21Y12.SR      net (fanout=13)       1.549   CONTA_RETRASO_or0000
+    SLICE_X21Y12.CLK     Tsrck                 0.433   CONTA_RETRASO<14>
+                                                       CONTA_RETRASO_14
+    -------------------------------------------------  ---------------------------
+    Total                                      6.443ns (2.890ns logic, 3.553ns route)
+                                                       (44.9% logic, 55.1% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point CONTA_RETRASO_15 (SLICE_X21Y12.SR), 26 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     76.747ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               CONTA_RETRASO_16 (FF)
+  Destination:          CONTA_RETRASO_15 (FF)
+  Requirement:          83.333ns
+  Data Path Delay:      6.583ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.003ns (0.015 - 0.018)
+  Source Clock:         CLK_BUFGP rising at 0.000ns
+  Destination Clock:    CLK_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: CONTA_RETRASO_16 to CONTA_RETRASO_15
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X21Y13.XQ      Tcko                  0.495   CONTA_RETRASO<16>
+                                                       CONTA_RETRASO_16
+    SLICE_X19Y12.G1      net (fanout=2)        1.086   CONTA_RETRASO<16>
+    SLICE_X19Y12.COUT    Topcyg                1.009   CONTA_DECENAS_or000011_wg_cy<3>
+                                                       CONTA_DECENAS_or000011_wg_lut<3>
+                                                       CONTA_DECENAS_or000011_wg_cy<3>
+    SLICE_X19Y13.CIN     net (fanout=1)        0.000   CONTA_DECENAS_or000011_wg_cy<3>
+    SLICE_X19Y13.COUT    Tbyp                  0.130   CONTA_DECENAS_or000011_wg_cy<5>
+                                                       CONTA_DECENAS_or000011_wg_cy<4>
+                                                       CONTA_DECENAS_or000011_wg_cy<5>
+    SLICE_X19Y14.CIN     net (fanout=1)        0.000   CONTA_DECENAS_or000011_wg_cy<5>
+    SLICE_X19Y14.XB      Tcinxb                0.216   CONTA_DECENAS_or000011_wg_cy<6>
+                                                       CONTA_DECENAS_or000011_wg_cy<6>
+    SLICE_X19Y17.G3      net (fanout=6)        1.104   CONTA_DECENAS_or000011_wg_cy<6>
+    SLICE_X19Y17.Y       Tilo                  0.561   CONTA_DECENAS_not0001
+                                                       CONTA_RETRASO_or00001
+    SLICE_X21Y12.SR      net (fanout=13)       1.549   CONTA_RETRASO_or0000
+    SLICE_X21Y12.CLK     Tsrck                 0.433   CONTA_RETRASO<14>
+                                                       CONTA_RETRASO_15
+    -------------------------------------------------  ---------------------------
+    Total                                      6.583ns (2.844ns logic, 3.739ns route)
+                                                       (43.2% logic, 56.8% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     76.770ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               CONTA_RETRASO_7 (FF)
+  Destination:          CONTA_RETRASO_15 (FF)
+  Requirement:          83.333ns
+  Data Path Delay:      6.537ns (Levels of Logic = 5)
+  Clock Path Skew:      -0.026ns (0.015 - 0.041)
+  Source Clock:         CLK_BUFGP rising at 0.000ns
+  Destination Clock:    CLK_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: CONTA_RETRASO_7 to CONTA_RETRASO_15
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X21Y8.YQ       Tcko                  0.524   CONTA_RETRASO<6>
+                                                       CONTA_RETRASO_7
+    SLICE_X19Y11.F2      net (fanout=2)        0.864   CONTA_RETRASO<7>
+    SLICE_X19Y11.COUT    Topcyf                1.026   CONTA_DECENAS_or000011_wg_cy<1>
+                                                       CONTA_DECENAS_or000011_wg_lut<0>
+                                                       CONTA_DECENAS_or000011_wg_cy<0>
+                                                       CONTA_DECENAS_or000011_wg_cy<1>
+    SLICE_X19Y12.CIN     net (fanout=1)        0.000   CONTA_DECENAS_or000011_wg_cy<1>
+    SLICE_X19Y12.COUT    Tbyp                  0.130   CONTA_DECENAS_or000011_wg_cy<3>
+                                                       CONTA_DECENAS_or000011_wg_cy<2>
+                                                       CONTA_DECENAS_or000011_wg_cy<3>
+    SLICE_X19Y13.CIN     net (fanout=1)        0.000   CONTA_DECENAS_or000011_wg_cy<3>
+    SLICE_X19Y13.COUT    Tbyp                  0.130   CONTA_DECENAS_or000011_wg_cy<5>
+                                                       CONTA_DECENAS_or000011_wg_cy<4>
+                                                       CONTA_DECENAS_or000011_wg_cy<5>
+    SLICE_X19Y14.CIN     net (fanout=1)        0.000   CONTA_DECENAS_or000011_wg_cy<5>
+    SLICE_X19Y14.XB      Tcinxb                0.216   CONTA_DECENAS_or000011_wg_cy<6>
+                                                       CONTA_DECENAS_or000011_wg_cy<6>
+    SLICE_X19Y17.G3      net (fanout=6)        1.104   CONTA_DECENAS_or000011_wg_cy<6>
+    SLICE_X19Y17.Y       Tilo                  0.561   CONTA_DECENAS_not0001
+                                                       CONTA_RETRASO_or00001
+    SLICE_X21Y12.SR      net (fanout=13)       1.549   CONTA_RETRASO_or0000
+    SLICE_X21Y12.CLK     Tsrck                 0.433   CONTA_RETRASO<14>
+                                                       CONTA_RETRASO_15
+    -------------------------------------------------  ---------------------------
+    Total                                      6.537ns (3.020ns logic, 3.517ns route)
+                                                       (46.2% logic, 53.8% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     76.858ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               CONTA_RETRASO_3 (FF)
+  Destination:          CONTA_RETRASO_15 (FF)
+  Requirement:          83.333ns
+  Data Path Delay:      6.443ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.032ns (0.015 - 0.047)
+  Source Clock:         CLK_BUFGP rising at 0.000ns
+  Destination Clock:    CLK_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: CONTA_RETRASO_3 to CONTA_RETRASO_15
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X21Y6.YQ       Tcko                  0.524   CONTA_RETRASO<2>
+                                                       CONTA_RETRASO_3
+    SLICE_X19Y12.F1      net (fanout=2)        0.900   CONTA_RETRASO<3>
+    SLICE_X19Y12.COUT    Topcyf                1.026   CONTA_DECENAS_or000011_wg_cy<3>
+                                                       CONTA_DECENAS_or000011_wg_lut<2>
+                                                       CONTA_DECENAS_or000011_wg_cy<2>
+                                                       CONTA_DECENAS_or000011_wg_cy<3>
+    SLICE_X19Y13.CIN     net (fanout=1)        0.000   CONTA_DECENAS_or000011_wg_cy<3>
+    SLICE_X19Y13.COUT    Tbyp                  0.130   CONTA_DECENAS_or000011_wg_cy<5>
+                                                       CONTA_DECENAS_or000011_wg_cy<4>
+                                                       CONTA_DECENAS_or000011_wg_cy<5>
+    SLICE_X19Y14.CIN     net (fanout=1)        0.000   CONTA_DECENAS_or000011_wg_cy<5>
+    SLICE_X19Y14.XB      Tcinxb                0.216   CONTA_DECENAS_or000011_wg_cy<6>
+                                                       CONTA_DECENAS_or000011_wg_cy<6>
+    SLICE_X19Y17.G3      net (fanout=6)        1.104   CONTA_DECENAS_or000011_wg_cy<6>
+    SLICE_X19Y17.Y       Tilo                  0.561   CONTA_DECENAS_not0001
+                                                       CONTA_RETRASO_or00001
+    SLICE_X21Y12.SR      net (fanout=13)       1.549   CONTA_RETRASO_or0000
+    SLICE_X21Y12.CLK     Tsrck                 0.433   CONTA_RETRASO<14>
+                                                       CONTA_RETRASO_15
+    -------------------------------------------------  ---------------------------
+    Total                                      6.443ns (2.890ns logic, 3.553ns route)
+                                                       (44.9% logic, 55.1% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point CONTA_RETRASO_16 (SLICE_X21Y13.SR), 26 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     76.750ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               CONTA_RETRASO_16 (FF)
+  Destination:          CONTA_RETRASO_16 (FF)
+  Requirement:          83.333ns
+  Data Path Delay:      6.583ns (Levels of Logic = 4)
+  Clock Path Skew:      0.000ns
+  Source Clock:         CLK_BUFGP rising at 0.000ns
+  Destination Clock:    CLK_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: CONTA_RETRASO_16 to CONTA_RETRASO_16
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X21Y13.XQ      Tcko                  0.495   CONTA_RETRASO<16>
+                                                       CONTA_RETRASO_16
+    SLICE_X19Y12.G1      net (fanout=2)        1.086   CONTA_RETRASO<16>
+    SLICE_X19Y12.COUT    Topcyg                1.009   CONTA_DECENAS_or000011_wg_cy<3>
+                                                       CONTA_DECENAS_or000011_wg_lut<3>
+                                                       CONTA_DECENAS_or000011_wg_cy<3>
+    SLICE_X19Y13.CIN     net (fanout=1)        0.000   CONTA_DECENAS_or000011_wg_cy<3>
+    SLICE_X19Y13.COUT    Tbyp                  0.130   CONTA_DECENAS_or000011_wg_cy<5>
+                                                       CONTA_DECENAS_or000011_wg_cy<4>
+                                                       CONTA_DECENAS_or000011_wg_cy<5>
+    SLICE_X19Y14.CIN     net (fanout=1)        0.000   CONTA_DECENAS_or000011_wg_cy<5>
+    SLICE_X19Y14.XB      Tcinxb                0.216   CONTA_DECENAS_or000011_wg_cy<6>
+                                                       CONTA_DECENAS_or000011_wg_cy<6>
+    SLICE_X19Y17.G3      net (fanout=6)        1.104   CONTA_DECENAS_or000011_wg_cy<6>
+    SLICE_X19Y17.Y       Tilo                  0.561   CONTA_DECENAS_not0001
+                                                       CONTA_RETRASO_or00001
+    SLICE_X21Y13.SR      net (fanout=13)       1.549   CONTA_RETRASO_or0000
+    SLICE_X21Y13.CLK     Tsrck                 0.433   CONTA_RETRASO<16>
+                                                       CONTA_RETRASO_16
+    -------------------------------------------------  ---------------------------
+    Total                                      6.583ns (2.844ns logic, 3.739ns route)
+                                                       (43.2% logic, 56.8% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     76.770ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               CONTA_RETRASO_7 (FF)
+  Destination:          CONTA_RETRASO_16 (FF)
+  Requirement:          83.333ns
+  Data Path Delay:      6.537ns (Levels of Logic = 5)
+  Clock Path Skew:      -0.026ns (0.015 - 0.041)
+  Source Clock:         CLK_BUFGP rising at 0.000ns
+  Destination Clock:    CLK_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: CONTA_RETRASO_7 to CONTA_RETRASO_16
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X21Y8.YQ       Tcko                  0.524   CONTA_RETRASO<6>
+                                                       CONTA_RETRASO_7
+    SLICE_X19Y11.F2      net (fanout=2)        0.864   CONTA_RETRASO<7>
+    SLICE_X19Y11.COUT    Topcyf                1.026   CONTA_DECENAS_or000011_wg_cy<1>
+                                                       CONTA_DECENAS_or000011_wg_lut<0>
+                                                       CONTA_DECENAS_or000011_wg_cy<0>
+                                                       CONTA_DECENAS_or000011_wg_cy<1>
+    SLICE_X19Y12.CIN     net (fanout=1)        0.000   CONTA_DECENAS_or000011_wg_cy<1>
+    SLICE_X19Y12.COUT    Tbyp                  0.130   CONTA_DECENAS_or000011_wg_cy<3>
+                                                       CONTA_DECENAS_or000011_wg_cy<2>
+                                                       CONTA_DECENAS_or000011_wg_cy<3>
+    SLICE_X19Y13.CIN     net (fanout=1)        0.000   CONTA_DECENAS_or000011_wg_cy<3>
+    SLICE_X19Y13.COUT    Tbyp                  0.130   CONTA_DECENAS_or000011_wg_cy<5>
+                                                       CONTA_DECENAS_or000011_wg_cy<4>
+                                                       CONTA_DECENAS_or000011_wg_cy<5>
+    SLICE_X19Y14.CIN     net (fanout=1)        0.000   CONTA_DECENAS_or000011_wg_cy<5>
+    SLICE_X19Y14.XB      Tcinxb                0.216   CONTA_DECENAS_or000011_wg_cy<6>
+                                                       CONTA_DECENAS_or000011_wg_cy<6>
+    SLICE_X19Y17.G3      net (fanout=6)        1.104   CONTA_DECENAS_or000011_wg_cy<6>
+    SLICE_X19Y17.Y       Tilo                  0.561   CONTA_DECENAS_not0001
+                                                       CONTA_RETRASO_or00001
+    SLICE_X21Y13.SR      net (fanout=13)       1.549   CONTA_RETRASO_or0000
+    SLICE_X21Y13.CLK     Tsrck                 0.433   CONTA_RETRASO<16>
+                                                       CONTA_RETRASO_16
+    -------------------------------------------------  ---------------------------
+    Total                                      6.537ns (3.020ns logic, 3.517ns route)
+                                                       (46.2% logic, 53.8% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     76.858ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               CONTA_RETRASO_3 (FF)
+  Destination:          CONTA_RETRASO_16 (FF)
+  Requirement:          83.333ns
+  Data Path Delay:      6.443ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.032ns (0.015 - 0.047)
+  Source Clock:         CLK_BUFGP rising at 0.000ns
+  Destination Clock:    CLK_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: CONTA_RETRASO_3 to CONTA_RETRASO_16
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X21Y6.YQ       Tcko                  0.524   CONTA_RETRASO<2>
+                                                       CONTA_RETRASO_3
+    SLICE_X19Y12.F1      net (fanout=2)        0.900   CONTA_RETRASO<3>
+    SLICE_X19Y12.COUT    Topcyf                1.026   CONTA_DECENAS_or000011_wg_cy<3>
+                                                       CONTA_DECENAS_or000011_wg_lut<2>
+                                                       CONTA_DECENAS_or000011_wg_cy<2>
+                                                       CONTA_DECENAS_or000011_wg_cy<3>
+    SLICE_X19Y13.CIN     net (fanout=1)        0.000   CONTA_DECENAS_or000011_wg_cy<3>
+    SLICE_X19Y13.COUT    Tbyp                  0.130   CONTA_DECENAS_or000011_wg_cy<5>
+                                                       CONTA_DECENAS_or000011_wg_cy<4>
+                                                       CONTA_DECENAS_or000011_wg_cy<5>
+    SLICE_X19Y14.CIN     net (fanout=1)        0.000   CONTA_DECENAS_or000011_wg_cy<5>
+    SLICE_X19Y14.XB      Tcinxb                0.216   CONTA_DECENAS_or000011_wg_cy<6>
+                                                       CONTA_DECENAS_or000011_wg_cy<6>
+    SLICE_X19Y17.G3      net (fanout=6)        1.104   CONTA_DECENAS_or000011_wg_cy<6>
+    SLICE_X19Y17.Y       Tilo                  0.561   CONTA_DECENAS_not0001
+                                                       CONTA_RETRASO_or00001
+    SLICE_X21Y13.SR      net (fanout=13)       1.549   CONTA_RETRASO_or0000
+    SLICE_X21Y13.CLK     Tsrck                 0.433   CONTA_RETRASO<16>
+                                                       CONTA_RETRASO_16
+    -------------------------------------------------  ---------------------------
+    Total                                      6.443ns (2.890ns logic, 3.553ns route)
+                                                       (44.9% logic, 55.1% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: NET "CLK_BUFGP/IBUFG" PERIOD = 83.3333333 ns HIGH 50%;
+--------------------------------------------------------------------------------
+
+Paths for end point CONTA_UNIDADES_0 (SLICE_X19Y19.BX), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.824ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               CONTA_UNIDADES_0 (FF)
+  Destination:          CONTA_UNIDADES_0 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.824ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         CLK_BUFGP rising at 83.333ns
+  Destination Clock:    CLK_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: CONTA_UNIDADES_0 to CONTA_UNIDADES_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X19Y19.XQ      Tcko                  0.396   CONTA_UNIDADES<0>
+                                                       CONTA_UNIDADES_0
+    SLICE_X19Y19.BX      net (fanout=6)        0.346   CONTA_UNIDADES<0>
+    SLICE_X19Y19.CLK     Tckdi       (-Th)    -0.082   CONTA_UNIDADES<0>
+                                                       CONTA_UNIDADES_0
+    -------------------------------------------------  ---------------------------
+    Total                                      0.824ns (0.478ns logic, 0.346ns route)
+                                                       (58.0% logic, 42.0% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point CONTA_UNIDADES_1 (SLICE_X19Y19.G4), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      1.088ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               CONTA_UNIDADES_0 (FF)
+  Destination:          CONTA_UNIDADES_1 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      1.088ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         CLK_BUFGP rising at 83.333ns
+  Destination Clock:    CLK_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: CONTA_UNIDADES_0 to CONTA_UNIDADES_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X19Y19.XQ      Tcko                  0.396   CONTA_UNIDADES<0>
+                                                       CONTA_UNIDADES_0
+    SLICE_X19Y19.G4      net (fanout=6)        0.286   CONTA_UNIDADES<0>
+    SLICE_X19Y19.CLK     Tckg        (-Th)    -0.406   CONTA_UNIDADES<0>
+                                                       Mcount_CONTA_UNIDADES_xor<1>11
+                                                       CONTA_UNIDADES_1
+    -------------------------------------------------  ---------------------------
+    Total                                      1.088ns (0.802ns logic, 0.286ns route)
+                                                       (73.7% logic, 26.3% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point EDO_P_0 (SLICE_X16Y28.BY), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      1.120ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               EDO_P_0 (FF)
+  Destination:          EDO_P_0 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      1.120ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         CLK_BUFGP rising at 83.333ns
+  Destination Clock:    CLK_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: EDO_P_0 to EDO_P_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X16Y28.YQ      Tcko                  0.477   EDO_P<0>
+                                                       EDO_P_0
+    SLICE_X16Y28.BY      net (fanout=7)        0.506   EDO_P<0>
+    SLICE_X16Y28.CLK     Tckdi       (-Th)    -0.137   EDO_P<0>
+                                                       EDO_P_0
+    -------------------------------------------------  ---------------------------
+    Total                                      1.120ns (0.614ns logic, 0.506ns route)
+                                                       (54.8% logic, 45.2% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: NET "CLK_BUFGP/IBUFG" PERIOD = 83.3333333 ns HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 82.005ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 83.333ns
+  Low pulse: 41.666ns
+  Low pulse limit: 0.664ns (Tcl)
+  Physical resource: CONTA_UNIDADES<3>/CLK
+  Logical resource: CONTA_UNIDADES_3/CK
+  Location pin: SLICE_X18Y17.CLK
+  Clock network: CLK_BUFGP
+--------------------------------------------------------------------------------
+Slack: 82.005ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 83.333ns
+  High pulse: 41.666ns
+  High pulse limit: 0.664ns (Tch)
+  Physical resource: CONTA_UNIDADES<3>/CLK
+  Logical resource: CONTA_UNIDADES_3/CK
+  Location pin: SLICE_X18Y17.CLK
+  Clock network: CLK_BUFGP
+--------------------------------------------------------------------------------
+Slack: 82.005ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 83.333ns
+  Low pulse: 41.666ns
+  Low pulse limit: 0.664ns (Tcl)
+  Physical resource: CONTA_UNIDADES<3>/CLK
+  Logical resource: CONTA_UNIDADES_2/CK
+  Location pin: SLICE_X18Y17.CLK
+  Clock network: CLK_BUFGP
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    6.586|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 2098 paths, 0 nets, and 220 connections
+
+Design statistics:
+   Minimum period:   6.586ns{1}   (Maximum frequency: 151.837MHz)
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed Fri Dec 14 08:29:23 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4522 MB
+
+
+
