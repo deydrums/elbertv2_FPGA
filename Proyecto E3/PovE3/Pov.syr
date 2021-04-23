@@ -1,0 +1,717 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Reading design: Pov.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Pov.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Pov"
+Output Format                      : NGC
+Target Device                      : xc3s50a-5-tq144
+
+---- Source Options
+Top Module Name                    : Pov
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.vhd" in Library work.
+Entity <pov> compiled.
+Entity <pov> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <Pov> in library <work> (architecture <behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <Pov> in library <work> (Architecture <behavioral>).
+INFO:Xst:1433 - Contents of array <V> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <L> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <P> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:1433 - Contents of array <E> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+INFO:Xst:2679 - Register <un> in unit <Pov> has a constant value of 0 during circuit operation. The register is replaced by logic.
+Entity <Pov> analyzed. Unit <Pov> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Pov>.
+    Related source file is "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.vhd".
+WARNING:Xst:1781 - Signal <uno> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <tres> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <siete> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <seis> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <ocho> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <nueve> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <dos> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <cuatro> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <cinco> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <cero> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <X> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <V> is used but never assigned. Tied to default value.
+WARNING:Xst:1780 - Signal <U> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1781 - Signal <T> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <S> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <R> is used but never assigned. Tied to default value.
+WARNING:Xst:1780 - Signal <Q> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1781 - Signal <P> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <O> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <N> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <M> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <L> is used but never assigned. Tied to default value.
+WARNING:Xst:1780 - Signal <K> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <J> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1781 - Signal <I> is used but never assigned. Tied to default value.
+WARNING:Xst:1780 - Signal <H> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <G> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1780 - Signal <F> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+WARNING:Xst:1781 - Signal <ESPACIO> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <E> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <DOSPUNTOS> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <D> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <C> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <B> is used but never assigned. Tied to default value.
+WARNING:Xst:1781 - Signal <A> is used but never assigned. Tied to default value.
+    Found finite state machine <FSM_0> for signal <State>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 8                                              |
+    | Inputs             | 4                                              |
+    | Outputs            | 5                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Power Up State     | primero                                        |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Using one-hot encoding for signal <dec>.
+    Using one-hot encoding for signal <cen>.
+    Found 5x48-bit ROM for signal <contador_2_0$rom0000>.
+    Found 12-bit register for signal <pov>.
+    Found 3-bit register for signal <color>.
+    Found 8-bit register for signal <cen>.
+    Found 4-bit comparator greater for signal <cen$cmp_gt0000> created at line 390.
+    Found 4-bit comparator greater for signal <cen$cmp_gt0001> created at line 390.
+    Found 4-bit comparator greater for signal <cen$cmp_gt0002> created at line 390.
+    Found 4-bit comparator greater for signal <cen$cmp_gt0003> created at line 386.
+    Found 4-bit comparator greater for signal <cen$cmp_gt0004> created at line 382.
+    Found 4-bit comparator greater for signal <cen$cmp_gt0005> created at line 378.
+    Found 4-bit comparator greater for signal <cen$cmp_gt0006> created at line 374.
+    Found 4-bit comparator greater for signal <cen$cmp_gt0007> created at line 370.
+    Found 4-bit comparator greater for signal <cen$cmp_gt0008> created at line 366.
+    Found 4-bit comparator greater for signal <cen$cmp_gt0009> created at line 362.
+    Found 4-bit comparator lessequal for signal <cen$cmp_le0000> created at line 362.
+    Found 4-bit comparator lessequal for signal <cen$cmp_le0001> created at line 362.
+    Found 4-bit comparator lessequal for signal <cen$cmp_le0002> created at line 362.
+    Found 4-bit comparator lessequal for signal <cen$cmp_le0003> created at line 366.
+    Found 4-bit comparator lessequal for signal <cen$cmp_le0004> created at line 370.
+    Found 4-bit comparator lessequal for signal <cen$cmp_le0005> created at line 374.
+    Found 4-bit comparator lessequal for signal <cen$cmp_le0006> created at line 382.
+    Found 4-bit comparator lessequal for signal <cen$cmp_le0007> created at line 382.
+    Found 4-bit comparator lessequal for signal <cen$cmp_le0008> created at line 386.
+    Found 60-bit register for signal <centenas>.
+    Found 7-bit comparator greatequal for signal <color$cmp_ge0000> created at line 334.
+    Found 7-bit comparator lessequal for signal <color$cmp_le0000> created at line 334.
+    Found 7-bit up counter for signal <contador>.
+    Found 29-bit up counter for signal <cuenta>.
+    Found 4-bit up counter for signal <cx>.
+    Found 4-bit comparator greater for signal <cx$cmp_gt0000> created at line 350.
+    Found 4-bit comparator greater for signal <cx$cmp_gt0001> created at line 346.
+    Found 4-bit comparator lessequal for signal <cx$cmp_le0000> created at line 346.
+    Found 10-bit register for signal <dec>.
+    Found 60-bit register for signal <decenas>.
+    Found 14-bit up counter for signal <delay>.
+    Found 29-bit comparator greatequal for signal <delay$cmp_ge0000> created at line 263.
+    Found 29-bit comparator lessequal for signal <delay$cmp_le0000> created at line 263.
+    Found 4-bit up counter for signal <dx>.
+    Found 1-bit register for signal <flag>.
+    Found 24-bit up counter for signal <seg>.
+    Found 60-bit register for signal <unidades>.
+    Found 4-bit up counter for signal <ux>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 ROM(s).
+	inferred   7 Counter(s).
+	inferred 214 D-type flip-flop(s).
+	inferred  26 Comparator(s).
+Unit <Pov> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 5x48-bit ROM                                          : 1
+# Counters                                             : 7
+ 14-bit up counter                                     : 1
+ 24-bit up counter                                     : 1
+ 29-bit up counter                                     : 1
+ 4-bit up counter                                      : 3
+ 7-bit up counter                                      : 1
+# Registers                                            : 20
+ 1-bit register                                        : 1
+ 10-bit register                                       : 1
+ 12-bit register                                       : 16
+ 3-bit register                                        : 1
+ 8-bit register                                        : 1
+# Comparators                                          : 26
+ 29-bit comparator greatequal                          : 1
+ 29-bit comparator lessequal                           : 1
+ 4-bit comparator greater                              : 12
+ 4-bit comparator lessequal                            : 10
+ 7-bit comparator greatequal                           : 1
+ 7-bit comparator lessequal                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <State/FSM> on signal <State[1:2]> with gray encoding.
+---------------------
+ State   | Encoding
+---------------------
+ primero | 00
+ segundo | 01
+ tercero | 11
+ cuarto  | 10
+---------------------
+WARNING:Xst:1710 - FF/Latch <decenas_4_3> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <decenas_4_2> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <decenas_4_1> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <decenas_4_0> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_4_11> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_4_10> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_4_9> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_4_8> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_4_7> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_4_6> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_4_5> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_4_4> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_4_3> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_4_2> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_4_1> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_4_0> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_2_11> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_2_10> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_2_9> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_2_8> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_2_7> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_2_6> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_2_5> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <centenas_3_11> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <decenas_3_11> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <decenas_0_5> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <centenas_4_11> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <centenas_4_10> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <centenas_4_9> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <centenas_4_8> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <centenas_4_7> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <centenas_4_6> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <centenas_4_5> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <centenas_4_4> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <centenas_4_3> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <centenas_4_2> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <centenas_4_1> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <centenas_4_0> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <decenas_4_11> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <decenas_4_10> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <decenas_4_9> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <decenas_4_8> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <decenas_4_7> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <decenas_4_6> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <decenas_4_5> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <decenas_4_4> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_1_4> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_1_3> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_1_2> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_1_1> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_1_0> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_0_11> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_0_10> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_0_9> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_0_8> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_0_7> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_0_6> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_0_5> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_0_4> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_0_3> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_0_2> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_0_1> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_0_0> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <dec_9> has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <dec_7> has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <dec_5> has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <dec_3> has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <dec_1> has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cen_1> has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_2_4> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_2_3> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_2_2> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_2_1> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_2_0> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_3_11> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_3_10> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_3_9> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_3_8> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_3_7> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_3_6> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_3_5> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_1_5> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_1_6> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_1_7> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_1_8> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_1_9> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_1_10> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_1_11> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_3_0> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_3_1> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_3_2> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_3_3> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_3_4> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <decenas_0_0> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <decenas_3_0> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <decenas_3_5> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <centenas_0_0> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <centenas_3_0> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <centenas_3_5> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:2677 - Node <cen_0> of sequential type is unconnected in block <Pov>.
+WARNING:Xst:2677 - Node <dec_0> of sequential type is unconnected in block <Pov>.
+WARNING:Xst:2404 -  FFs/Latches <decenas_3<11:11>> (without init value) have a constant value of 0 in block <Pov>.
+WARNING:Xst:2404 -  FFs/Latches <centenas_3<11:11>> (without init value) have a constant value of 0 in block <Pov>.
+WARNING:Xst:2404 -  FFs/Latches <unidades_0<11:0>> (without init value) have a constant value of 0 in block <Pov>.
+WARNING:Xst:2404 -  FFs/Latches <unidades_1<11:11>> (without init value) have a constant value of 0 in block <Pov>.
+WARNING:Xst:2404 -  FFs/Latches <unidades_2<11:11>> (without init value) have a constant value of 0 in block <Pov>.
+WARNING:Xst:2404 -  FFs/Latches <unidades_3<11:0>> (without init value) have a constant value of 0 in block <Pov>.
+WARNING:Xst:2677 - Node <cen_0> of sequential type is unconnected in block <Pov>.
+WARNING:Xst:2677 - Node <dec_0> of sequential type is unconnected in block <Pov>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# ROMs                                                 : 1
+ 5x48-bit ROM                                          : 1
+# Counters                                             : 7
+ 14-bit up counter                                     : 1
+ 24-bit up counter                                     : 1
+ 29-bit up counter                                     : 1
+ 4-bit up counter                                      : 3
+ 7-bit up counter                                      : 1
+# Registers                                            : 184
+ Flip-Flops                                            : 184
+# Comparators                                          : 26
+ 29-bit comparator greatequal                          : 1
+ 29-bit comparator lessequal                           : 1
+ 4-bit comparator greater                              : 12
+ 4-bit comparator lessequal                            : 10
+ 7-bit comparator greatequal                           : 1
+ 7-bit comparator lessequal                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <centenas_4_3> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <centenas_4_4> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <centenas_4_5> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <centenas_4_6> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <centenas_4_7> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <centenas_4_8> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <centenas_4_9> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <centenas_4_10> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <centenas_4_11> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_2_0> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_2_1> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_2_2> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_2_3> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_2_4> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_2_5> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_2_6> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_2_7> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_2_8> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_2_9> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_2_10> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_1_0> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_1_1> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_1_2> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_1_3> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_1_4> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_1_5> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_1_6> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_1_7> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_1_8> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_1_9> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_1_10> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <decenas_0_5> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <cen_1> has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <dec_1> has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <dec_3> has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <dec_5> has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <dec_7> has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch <dec_9> has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <decenas_4_0> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <decenas_4_1> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <decenas_4_2> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <decenas_4_3> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <decenas_4_4> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <decenas_4_5> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <decenas_4_6> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <decenas_4_7> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <decenas_4_8> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <decenas_4_9> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <centenas_4_2> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <centenas_4_1> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <centenas_4_0> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_4_11> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_4_10> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_4_9> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_4_8> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_4_7> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_4_6> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_4_5> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_4_4> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_4_3> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_4_2> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_4_1> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <unidades_4_0> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <decenas_4_11> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <decenas_4_10> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <decenas_0_0> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <centenas_0_0> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <decenas_3_0> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <decenas_3_5> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <centenas_3_0> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <centenas_3_5> (without init value) has a constant value of 0 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <centenas_0_6> in Unit <Pov> is equivalent to the following 4 FFs/Latches, which will be removed : <centenas_0_7> <centenas_0_8> <centenas_0_9> <centenas_0_10> 
+INFO:Xst:2261 - The FF/Latch <centenas_1_11> in Unit <Pov> is equivalent to the following 2 FFs/Latches, which will be removed : <centenas_0_11> <centenas_2_11> 
+INFO:Xst:2261 - The FF/Latch <centenas_3_1> in Unit <Pov> is equivalent to the following 3 FFs/Latches, which will be removed : <centenas_3_2> <centenas_3_3> <centenas_3_4> 
+INFO:Xst:2261 - The FF/Latch <centenas_1_5> in Unit <Pov> is equivalent to the following FF/Latch, which will be removed : <centenas_2_5> 
+INFO:Xst:2261 - The FF/Latch <centenas_1_1> in Unit <Pov> is equivalent to the following 17 FFs/Latches, which will be removed : <centenas_1_2> <centenas_1_3> <centenas_1_4> <centenas_1_6> <centenas_1_7> <centenas_1_8> <centenas_1_9> <centenas_1_10> <centenas_2_1> <centenas_2_2> <centenas_2_3> <centenas_2_4> <centenas_2_6> <centenas_2_7> <centenas_2_8> <centenas_2_9> <centenas_2_10> 
+INFO:Xst:2261 - The FF/Latch <decenas_1_1> in Unit <Pov> is equivalent to the following 17 FFs/Latches, which will be removed : <decenas_1_2> <decenas_1_3> <decenas_1_4> <decenas_1_6> <decenas_1_7> <decenas_1_8> <decenas_1_9> <decenas_1_10> <decenas_2_1> <decenas_2_2> <decenas_2_3> <decenas_2_4> <decenas_2_6> <decenas_2_7> <decenas_2_8> <decenas_2_9> <decenas_2_10> 
+INFO:Xst:2261 - The FF/Latch <centenas_3_6> in Unit <Pov> is equivalent to the following 4 FFs/Latches, which will be removed : <centenas_3_7> <centenas_3_8> <centenas_3_9> <centenas_3_10> 
+INFO:Xst:2261 - The FF/Latch <centenas_1_0> in Unit <Pov> is equivalent to the following FF/Latch, which will be removed : <centenas_2_0> 
+INFO:Xst:2261 - The FF/Latch <decenas_0_1> in Unit <Pov> is equivalent to the following 8 FFs/Latches, which will be removed : <decenas_0_2> <decenas_0_3> <decenas_0_4> <decenas_3_6> <decenas_3_7> <decenas_3_8> <decenas_3_9> <decenas_3_10> 
+INFO:Xst:2261 - The FF/Latch <decenas_1_0> in Unit <Pov> is equivalent to the following 9 FFs/Latches, which will be removed : <decenas_1_11> <decenas_0_6> <decenas_0_7> <decenas_0_8> <decenas_0_9> <decenas_0_10> <decenas_0_11> <decenas_2_0> <decenas_2_11> 
+INFO:Xst:2261 - The FF/Latch <decenas_3_1> in Unit <Pov> is equivalent to the following 3 FFs/Latches, which will be removed : <decenas_3_2> <decenas_3_3> <decenas_3_4> 
+INFO:Xst:2261 - The FF/Latch <decenas_1_5> in Unit <Pov> is equivalent to the following FF/Latch, which will be removed : <decenas_2_5> 
+INFO:Xst:2261 - The FF/Latch <centenas_0_1> in Unit <Pov> is equivalent to the following 3 FFs/Latches, which will be removed : <centenas_0_2> <centenas_0_3> <centenas_0_4> 
+
+Optimizing unit <Pov> ...
+WARNING:Xst:1710 - FF/Latch <decenas_1_1> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <centenas_1_1> (without init value) has a constant value of 1 in block <Pov>. This FF/Latch will be trimmed during the optimization process.
+INFO:Xst:2261 - The FF/Latch <pov_8> in Unit <Pov> is equivalent to the following FF/Latch, which will be removed : <pov_9> 
+INFO:Xst:2261 - The FF/Latch <pov_8> in Unit <Pov> is equivalent to the following FF/Latch, which will be removed : <pov_9> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Pov, actual ratio is 40.
+FlipFlop contador_0 has been replicated 1 time(s)
+FlipFlop contador_1 has been replicated 1 time(s)
+FlipFlop contador_4 has been replicated 1 time(s)
+FlipFlop contador_6 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 129
+ Flip-Flops                                            : 129
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : Pov.ngr
+Top Level Output File Name         : Pov
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 27
+
+Cell Usage :
+# BELS                             : 737
+#      GND                         : 1
+#      INV                         : 15
+#      LUT1                        : 73
+#      LUT2                        : 36
+#      LUT2_D                      : 10
+#      LUT2_L                      : 3
+#      LUT3                        : 66
+#      LUT3_D                      : 12
+#      LUT3_L                      : 12
+#      LUT4                        : 233
+#      LUT4_D                      : 43
+#      LUT4_L                      : 50
+#      MUXCY                       : 98
+#      MUXF5                       : 17
+#      VCC                         : 1
+#      XORCY                       : 67
+# FlipFlops/Latches                : 129
+#      FD                          : 10
+#      FDE                         : 11
+#      FDR                         : 45
+#      FDRE                        : 47
+#      FDS                         : 16
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 26
+#      IBUF                        : 3
+#      OBUF                        : 23
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50atq144-5 
+
+ Number of Slices:                      287  out of    704    40%  
+ Number of Slice Flip Flops:            129  out of   1408     9%  
+ Number of 4 input LUTs:                553  out of   1408    39%  
+ Number of IOs:                          27
+ Number of bonded IOBs:                  27  out of    108    25%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 129   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 9.203ns (Maximum Frequency: 108.665MHz)
+   Minimum input arrival time before clock: 5.679ns
+   Maximum output required time after clock: 5.980ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 9.203ns (frequency: 108.665MHz)
+  Total number of paths / destination ports: 17677 / 295
+-------------------------------------------------------------------------
+Delay:               9.203ns (Levels of Logic = 7)
+  Source:            contador_3 (FF)
+  Destination:       pov_1 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: contador_3 to pov_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            54   0.495   1.187  contador_3 (contador_3)
+     LUT4:I0->O            1   0.561   0.359  pov_or0014_SW0 (N205)
+     LUT4:I3->O           14   0.561   0.852  pov_or0014 (pov_or0014)
+     LUT4:I3->O            1   0.561   0.380  pov_mux0001<7>111451 (pov_mux0001<7>111451)
+     LUT4:I2->O            2   0.561   0.382  pov_mux0001<7>1114104 (N53)
+     LUT4_D:I3->O          2   0.561   0.382  pov_mux0001<7>111321 (pov_mux0001<7>11132)
+     LUT4_D:I3->O          1   0.561   0.423  pov_mux0001<7>111195_SW0 (N282)
+     LUT4:I1->O            2   0.562   0.380  pov_mux0001<4>138 (N9)
+     FDS:S                     0.435          pov_1
+    ----------------------------------------
+    Total                      9.203ns (4.858ns logic, 4.345ns route)
+                                       (52.8% logic, 47.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 118 / 93
+-------------------------------------------------------------------------
+Offset:              5.679ns (Levels of Logic = 5)
+  Source:            sensorhall (PAD)
+  Destination:       cx_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: sensorhall to cx_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             8   0.824   0.751  sensorhall_IBUF (sensorhall_IBUF)
+     LUT4:I0->O            1   0.561   0.359  cx_and000021_SW1 (N346)
+     LUT4_D:I3->LO         1   0.561   0.208  cx_and000021 (N450)
+     LUT4:I0->O            1   0.561   0.359  cx_and0000_SW0 (N181)
+     LUT4:I3->O            4   0.561   0.499  cx_and0000 (cx_and0000)
+     FDRE:R                    0.435          cx_0
+    ----------------------------------------
+    Total                      5.679ns (3.503ns logic, 2.176ns route)
+                                       (61.7% logic, 38.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 22 / 22
+-------------------------------------------------------------------------
+Offset:              5.980ns (Levels of Logic = 1)
+  Source:            contador_2 (FF)
+  Destination:       POVFPGA<2> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: contador_2 to POVFPGA<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            93   0.495   1.089  contador_2 (contador_2)
+     OBUF:I->O                 4.396          POVFPGA_2_OBUF (POVFPGA<2>)
+    ----------------------------------------
+    Total                      5.980ns (4.891ns logic, 1.089ns route)
+                                       (81.8% logic, 18.2% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 14.00 secs
+Total CPU time to Xst completion: 14.17 secs
+ 
+--> 
+
+Total memory usage is 4566352 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :  217 (   0 filtered)
+Number of infos    :   20 (   0 filtered)
+

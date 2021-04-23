@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\David\Desktop\Proyecto E3\PovE3\Pov.ncd
+OUTFILE=C:\Users\David\Desktop\Proyecto E3\PovE3\Pov.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-5tq144
+WORKINGDIR=C:\Users\David\Desktop\Proyecto E3\PovE3
+LICENSE=WebPack
+USER_INFO=__0_0_0

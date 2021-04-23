@@ -1,0 +1,764 @@
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 
+xst -intstyle ise -ifn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.xst" -ofn "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "C:/Users/David/Desktop/Proyecto E3/elbertv2.ucf" -p xc3s50a-tq144-5 "Pov.ngc" Pov.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o Pov_map.ncd Pov.ngd Pov.pcf 
+par -w -intstyle ise -ol high -t 1 Pov_map.ncd Pov.ncd Pov.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Pov.twx Pov.ncd -o Pov.twr Pov.pcf 
+bitgen -intstyle ise -f Pov.ut Pov.ncd 

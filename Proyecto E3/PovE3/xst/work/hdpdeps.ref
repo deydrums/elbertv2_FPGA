@@ -1,0 +1,6 @@
+V3 3
+FL "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.vhd" 2019/05/02.14:06:38 P.20131013
+EN work/Pov 1556827601 FL "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177
+AR work/Pov/Behavioral 1556827602 \
+      FL "C:/Users/David/Desktop/Proyecto E3/PovE3/Pov.vhd" EN work/Pov 1556827601
