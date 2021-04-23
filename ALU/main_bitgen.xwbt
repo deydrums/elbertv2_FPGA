@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\dey_d\Documents\FPGA\ALU\main.ncd
+OUTFILE=C:\Users\dey_d\Documents\FPGA\ALU\main.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-5tq144
+WORKINGDIR=C:\Users\dey_d\Documents\FPGA\ALU
+LICENSE=WebPack
+USER_INFO=__0_0_0

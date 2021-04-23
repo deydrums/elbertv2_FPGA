@@ -1,0 +1,30 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Feb 17 07:54:56 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+CONFIG VCCAUX = "3.3";
+COMP "numero<3>" LOCATE = SITE "P64" LEVEL 1;
+COMP "salida<3>" LOCATE = SITE "P49" LEVEL 1;
+COMP "clk" LOCATE = SITE "P129" LEVEL 1;
+COMP "salida<0>" LOCATE = SITE "P46" LEVEL 1;
+COMP "salida<4>" LOCATE = SITE "P50" LEVEL 1;
+COMP "operacion<0>" LOCATE = SITE "P80" LEVEL 1;
+COMP "salida<1>" LOCATE = SITE "P47" LEVEL 1;
+COMP "operacion<1>" LOCATE = SITE "P79" LEVEL 1;
+COMP "operacion<2>" LOCATE = SITE "P78" LEVEL 1;
+COMP "operacion<3>" LOCATE = SITE "P77" LEVEL 1;
+COMP "salida<5>" LOCATE = SITE "P51" LEVEL 1;
+COMP "salida<6>" LOCATE = SITE "P54" LEVEL 1;
+COMP "salida<7>" LOCATE = SITE "P55" LEVEL 1;
+COMP "salida<2>" LOCATE = SITE "P48" LEVEL 1;
+COMP "numero2<0>" LOCATE = SITE "P63" LEVEL 1;
+COMP "numero2<1>" LOCATE = SITE "P60" LEVEL 1;
+COMP "numero<0>" LOCATE = SITE "P70" LEVEL 1;
+COMP "numero2<2>" LOCATE = SITE "P59" LEVEL 1;
+COMP "numero<1>" LOCATE = SITE "P69" LEVEL 1;
+COMP "numero2<3>" LOCATE = SITE "P58" LEVEL 1;
+COMP "numero<2>" LOCATE = SITE "P68" LEVEL 1;
+NET "clk_IBUF" PERIOD = 83.3333333 ns HIGH 50%;
+SCHEMATIC END;
+
