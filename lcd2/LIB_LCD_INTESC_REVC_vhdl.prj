@@ -1,0 +1,4 @@
+vhdl work "C:\Users\David\Documents\FPGA\lcd2\PROCESADOR_LCD_REVC.vhd"
+vhdl work "C:\Users\David\Documents\FPGA\lcd2\COMANDOS_LCD_REVC.vhd"
+vhdl work "C:\Users\David\Documents\FPGA\lcd2\CARACTERES_ESPECIALES_REVC.vhd"
+vhdl work "C:\Users\David\Documents\FPGA\lcd2\LIB_LCD_INTESC_REVC.vhd"

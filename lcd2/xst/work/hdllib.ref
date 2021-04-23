@@ -1,0 +1,8 @@
+AR caracteres_especiales_revc behavioral C:/Users/David/Documents/FPGA/lcd2/CARACTERES_ESPECIALES_REVC.vhd sub00/vhpl05 1554526495
+EN procesador_lcd_revc NULL C:/Users/David/Documents/FPGA/lcd2/PROCESADOR_LCD_REVC.vhd sub00/vhpl02 1554526492
+EN lib_lcd_intesc_revc NULL C:/Users/David/Documents/FPGA/lcd2/LIB_LCD_INTESC_REVC.vhd sub00/vhpl06 1554526496
+AR lib_lcd_intesc_revc behavioral C:/Users/David/Documents/FPGA/lcd2/LIB_LCD_INTESC_REVC.vhd sub00/vhpl07 1554526497
+PH comandos_lcd_revc NULL C:/Users/David/Documents/FPGA/lcd2/COMANDOS_LCD_REVC.vhd sub00/vhpl00 1554526490
+EN caracteres_especiales_revc NULL C:/Users/David/Documents/FPGA/lcd2/CARACTERES_ESPECIALES_REVC.vhd sub00/vhpl04 1554526494
+AR procesador_lcd_revc behavioral C:/Users/David/Documents/FPGA/lcd2/PROCESADOR_LCD_REVC.vhd sub00/vhpl03 1554526493
+PB comandos_lcd_revc comandos_lcd_revc C:/Users/David/Documents/FPGA/lcd2/COMANDOS_LCD_REVC.vhd sub00/vhpl01 1554526491
