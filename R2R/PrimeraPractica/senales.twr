@@ -1,0 +1,507 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml senales.twx senales.ncd -o senales.twr senales.pcf -ucf
+elbertv2.ucf
+
+Design file:              senales.ncd
+Physical constraint file: senales.pcf
+Device,package,speed:     xc3s50a,tq144,-5 (PRODUCTION 1.42 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+================================================================================
+Timing constraint: NET "clk_BUFGP/IBUFG" PERIOD = 83.3333333 ns HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 1038 paths analyzed, 154 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   4.644ns.
+--------------------------------------------------------------------------------
+
+Paths for end point contador2_3 (SLICE_X6Y12.SR), 19 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     78.689ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               contador_12 (FF)
+  Destination:          contador2_3 (FF)
+  Requirement:          83.333ns
+  Data Path Delay:      4.624ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.020ns (0.234 - 0.254)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: contador_12 to contador2_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y18.XQ       Tcko                  0.495   contador<12>
+                                                       contador_12
+    SLICE_X8Y14.F3       net (fanout=2)        0.761   contador<12>
+    SLICE_X8Y14.X        Tilo                  0.601   N8
+                                                       contador2_and0000152_SW0
+    SLICE_X8Y12.G2       net (fanout=2)        0.370   N8
+    SLICE_X8Y12.Y        Tilo                  0.616   contador2_and0000
+                                                       contador2_and0000152
+    SLICE_X8Y12.F4       net (fanout=1)        0.035   contador2_and0000152/O
+    SLICE_X8Y12.X        Tilo                  0.601   contador2_and0000
+                                                       contador2_and00002
+    SLICE_X6Y12.SR       net (fanout=4)        0.712   contador2_and0000
+    SLICE_X6Y12.CLK      Tsrck                 0.433   contador2<3>
+                                                       contador2_3
+    -------------------------------------------------  ---------------------------
+    Total                                      4.624ns (2.746ns logic, 1.878ns route)
+                                                       (59.4% logic, 40.6% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     78.870ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               contador_11 (FF)
+  Destination:          contador2_3 (FF)
+  Requirement:          83.333ns
+  Data Path Delay:      4.445ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.018ns (0.234 - 0.252)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: contador_11 to contador2_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y17.YQ       Tcko                  0.524   contador<10>
+                                                       contador_11
+    SLICE_X8Y15.F1       net (fanout=2)        0.566   contador<11>
+    SLICE_X8Y15.X        Tilo                  0.601   contador2_and0000125
+                                                       contador2_and0000125
+    SLICE_X8Y12.G4       net (fanout=2)        0.357   contador2_and0000125
+    SLICE_X8Y12.Y        Tilo                  0.616   contador2_and0000
+                                                       contador2_and0000152
+    SLICE_X8Y12.F4       net (fanout=1)        0.035   contador2_and0000152/O
+    SLICE_X8Y12.X        Tilo                  0.601   contador2_and0000
+                                                       contador2_and00002
+    SLICE_X6Y12.SR       net (fanout=4)        0.712   contador2_and0000
+    SLICE_X6Y12.CLK      Tsrck                 0.433   contador2<3>
+                                                       contador2_3
+    -------------------------------------------------  ---------------------------
+    Total                                      4.445ns (2.775ns logic, 1.670ns route)
+                                                       (62.4% logic, 37.6% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     78.900ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               contador_0 (FF)
+  Destination:          contador2_3 (FF)
+  Requirement:          83.333ns
+  Data Path Delay:      4.408ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.025ns (0.234 - 0.259)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: contador_0 to contador2_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y12.XQ       Tcko                  0.495   contador<0>
+                                                       contador_0
+    SLICE_X8Y15.F2       net (fanout=2)        0.558   contador<0>
+    SLICE_X8Y15.X        Tilo                  0.601   contador2_and0000125
+                                                       contador2_and0000125
+    SLICE_X8Y12.G4       net (fanout=2)        0.357   contador2_and0000125
+    SLICE_X8Y12.Y        Tilo                  0.616   contador2_and0000
+                                                       contador2_and0000152
+    SLICE_X8Y12.F4       net (fanout=1)        0.035   contador2_and0000152/O
+    SLICE_X8Y12.X        Tilo                  0.601   contador2_and0000
+                                                       contador2_and00002
+    SLICE_X6Y12.SR       net (fanout=4)        0.712   contador2_and0000
+    SLICE_X6Y12.CLK      Tsrck                 0.433   contador2<3>
+                                                       contador2_3
+    -------------------------------------------------  ---------------------------
+    Total                                      4.408ns (2.746ns logic, 1.662ns route)
+                                                       (62.3% logic, 37.7% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point contador2_2 (SLICE_X6Y12.SR), 19 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     78.689ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               contador_12 (FF)
+  Destination:          contador2_2 (FF)
+  Requirement:          83.333ns
+  Data Path Delay:      4.624ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.020ns (0.234 - 0.254)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: contador_12 to contador2_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y18.XQ       Tcko                  0.495   contador<12>
+                                                       contador_12
+    SLICE_X8Y14.F3       net (fanout=2)        0.761   contador<12>
+    SLICE_X8Y14.X        Tilo                  0.601   N8
+                                                       contador2_and0000152_SW0
+    SLICE_X8Y12.G2       net (fanout=2)        0.370   N8
+    SLICE_X8Y12.Y        Tilo                  0.616   contador2_and0000
+                                                       contador2_and0000152
+    SLICE_X8Y12.F4       net (fanout=1)        0.035   contador2_and0000152/O
+    SLICE_X8Y12.X        Tilo                  0.601   contador2_and0000
+                                                       contador2_and00002
+    SLICE_X6Y12.SR       net (fanout=4)        0.712   contador2_and0000
+    SLICE_X6Y12.CLK      Tsrck                 0.433   contador2<3>
+                                                       contador2_2
+    -------------------------------------------------  ---------------------------
+    Total                                      4.624ns (2.746ns logic, 1.878ns route)
+                                                       (59.4% logic, 40.6% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     78.870ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               contador_11 (FF)
+  Destination:          contador2_2 (FF)
+  Requirement:          83.333ns
+  Data Path Delay:      4.445ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.018ns (0.234 - 0.252)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: contador_11 to contador2_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y17.YQ       Tcko                  0.524   contador<10>
+                                                       contador_11
+    SLICE_X8Y15.F1       net (fanout=2)        0.566   contador<11>
+    SLICE_X8Y15.X        Tilo                  0.601   contador2_and0000125
+                                                       contador2_and0000125
+    SLICE_X8Y12.G4       net (fanout=2)        0.357   contador2_and0000125
+    SLICE_X8Y12.Y        Tilo                  0.616   contador2_and0000
+                                                       contador2_and0000152
+    SLICE_X8Y12.F4       net (fanout=1)        0.035   contador2_and0000152/O
+    SLICE_X8Y12.X        Tilo                  0.601   contador2_and0000
+                                                       contador2_and00002
+    SLICE_X6Y12.SR       net (fanout=4)        0.712   contador2_and0000
+    SLICE_X6Y12.CLK      Tsrck                 0.433   contador2<3>
+                                                       contador2_2
+    -------------------------------------------------  ---------------------------
+    Total                                      4.445ns (2.775ns logic, 1.670ns route)
+                                                       (62.4% logic, 37.6% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     78.900ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               contador_0 (FF)
+  Destination:          contador2_2 (FF)
+  Requirement:          83.333ns
+  Data Path Delay:      4.408ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.025ns (0.234 - 0.259)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: contador_0 to contador2_2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y12.XQ       Tcko                  0.495   contador<0>
+                                                       contador_0
+    SLICE_X8Y15.F2       net (fanout=2)        0.558   contador<0>
+    SLICE_X8Y15.X        Tilo                  0.601   contador2_and0000125
+                                                       contador2_and0000125
+    SLICE_X8Y12.G4       net (fanout=2)        0.357   contador2_and0000125
+    SLICE_X8Y12.Y        Tilo                  0.616   contador2_and0000
+                                                       contador2_and0000152
+    SLICE_X8Y12.F4       net (fanout=1)        0.035   contador2_and0000152/O
+    SLICE_X8Y12.X        Tilo                  0.601   contador2_and0000
+                                                       contador2_and00002
+    SLICE_X6Y12.SR       net (fanout=4)        0.712   contador2_and0000
+    SLICE_X6Y12.CLK      Tsrck                 0.433   contador2<3>
+                                                       contador2_2
+    -------------------------------------------------  ---------------------------
+    Total                                      4.408ns (2.746ns logic, 1.662ns route)
+                                                       (62.3% logic, 37.7% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point contador2_5 (SLICE_X6Y13.SR), 19 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     78.689ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               contador_12 (FF)
+  Destination:          contador2_5 (FF)
+  Requirement:          83.333ns
+  Data Path Delay:      4.624ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.020ns (0.234 - 0.254)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: contador_12 to contador2_5
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y18.XQ       Tcko                  0.495   contador<12>
+                                                       contador_12
+    SLICE_X8Y14.F3       net (fanout=2)        0.761   contador<12>
+    SLICE_X8Y14.X        Tilo                  0.601   N8
+                                                       contador2_and0000152_SW0
+    SLICE_X8Y12.G2       net (fanout=2)        0.370   N8
+    SLICE_X8Y12.Y        Tilo                  0.616   contador2_and0000
+                                                       contador2_and0000152
+    SLICE_X8Y12.F4       net (fanout=1)        0.035   contador2_and0000152/O
+    SLICE_X8Y12.X        Tilo                  0.601   contador2_and0000
+                                                       contador2_and00002
+    SLICE_X6Y13.SR       net (fanout=4)        0.712   contador2_and0000
+    SLICE_X6Y13.CLK      Tsrck                 0.433   contador2<5>
+                                                       contador2_5
+    -------------------------------------------------  ---------------------------
+    Total                                      4.624ns (2.746ns logic, 1.878ns route)
+                                                       (59.4% logic, 40.6% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     78.870ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               contador_11 (FF)
+  Destination:          contador2_5 (FF)
+  Requirement:          83.333ns
+  Data Path Delay:      4.445ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.018ns (0.234 - 0.252)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: contador_11 to contador2_5
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y17.YQ       Tcko                  0.524   contador<10>
+                                                       contador_11
+    SLICE_X8Y15.F1       net (fanout=2)        0.566   contador<11>
+    SLICE_X8Y15.X        Tilo                  0.601   contador2_and0000125
+                                                       contador2_and0000125
+    SLICE_X8Y12.G4       net (fanout=2)        0.357   contador2_and0000125
+    SLICE_X8Y12.Y        Tilo                  0.616   contador2_and0000
+                                                       contador2_and0000152
+    SLICE_X8Y12.F4       net (fanout=1)        0.035   contador2_and0000152/O
+    SLICE_X8Y12.X        Tilo                  0.601   contador2_and0000
+                                                       contador2_and00002
+    SLICE_X6Y13.SR       net (fanout=4)        0.712   contador2_and0000
+    SLICE_X6Y13.CLK      Tsrck                 0.433   contador2<5>
+                                                       contador2_5
+    -------------------------------------------------  ---------------------------
+    Total                                      4.445ns (2.775ns logic, 1.670ns route)
+                                                       (62.4% logic, 37.6% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     78.900ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               contador_0 (FF)
+  Destination:          contador2_5 (FF)
+  Requirement:          83.333ns
+  Data Path Delay:      4.408ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.025ns (0.234 - 0.259)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: contador_0 to contador2_5
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X9Y12.XQ       Tcko                  0.495   contador<0>
+                                                       contador_0
+    SLICE_X8Y15.F2       net (fanout=2)        0.558   contador<0>
+    SLICE_X8Y15.X        Tilo                  0.601   contador2_and0000125
+                                                       contador2_and0000125
+    SLICE_X8Y12.G4       net (fanout=2)        0.357   contador2_and0000125
+    SLICE_X8Y12.Y        Tilo                  0.616   contador2_and0000
+                                                       contador2_and0000152
+    SLICE_X8Y12.F4       net (fanout=1)        0.035   contador2_and0000152/O
+    SLICE_X8Y12.X        Tilo                  0.601   contador2_and0000
+                                                       contador2_and00002
+    SLICE_X6Y13.SR       net (fanout=4)        0.712   contador2_and0000
+    SLICE_X6Y13.CLK      Tsrck                 0.433   contador2<5>
+                                                       contador2_5
+    -------------------------------------------------  ---------------------------
+    Total                                      4.408ns (2.746ns logic, 1.662ns route)
+                                                       (62.3% logic, 37.7% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: NET "clk_BUFGP/IBUFG" PERIOD = 83.3333333 ns HIGH 50%;
+--------------------------------------------------------------------------------
+
+Paths for end point temporal (SLICE_X16Y26.BY), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      1.102ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               temporal (FF)
+  Destination:          temporal (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      1.102ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clk_BUFGP rising at 83.333ns
+  Destination Clock:    clk_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: temporal to temporal
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X16Y26.YQ      Tcko                  0.477   temporal
+                                                       temporal
+    SLICE_X16Y26.BY      net (fanout=2)        0.488   temporal
+    SLICE_X16Y26.CLK     Tckdi       (-Th)    -0.137   temporal
+                                                       temporal
+    -------------------------------------------------  ---------------------------
+    Total                                      1.102ns (0.614ns logic, 0.488ns route)
+                                                       (55.7% logic, 44.3% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point contador2_0 (SLICE_X7Y12.BX), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      1.117ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               contador2_0 (FF)
+  Destination:          contador2_0 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      1.117ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clk_BUFGP rising at 83.333ns
+  Destination Clock:    clk_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: contador2_0 to contador2_0
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X7Y12.XQ       Tcko                  0.396   contador2<0>
+                                                       contador2_0
+    SLICE_X7Y12.BX       net (fanout=24)       0.639   contador2<0>
+    SLICE_X7Y12.CLK      Tckdi       (-Th)    -0.082   contador2<0>
+                                                       contador2_0
+    -------------------------------------------------  ---------------------------
+    Total                                      1.117ns (0.478ns logic, 0.639ns route)
+                                                       (42.8% logic, 57.2% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point contador2_3 (SLICE_X6Y12.F1), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      1.219ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               contador2_3 (FF)
+  Destination:          contador2_3 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      1.219ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clk_BUFGP rising at 83.333ns
+  Destination Clock:    clk_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: contador2_3 to contador2_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X6Y12.XQ       Tcko                  0.417   contador2<3>
+                                                       contador2_3
+    SLICE_X6Y12.F1       net (fanout=24)       0.364   contador2<3>
+    SLICE_X6Y12.CLK      Tckf        (-Th)    -0.438   contador2<3>
+                                                       Mcount_contador2_xor<3>11
+                                                       contador2_3
+    -------------------------------------------------  ---------------------------
+    Total                                      1.219ns (0.855ns logic, 0.364ns route)
+                                                       (70.1% logic, 29.9% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: NET "clk_BUFGP/IBUFG" PERIOD = 83.3333333 ns HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 82.005ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 83.333ns
+  Low pulse: 41.666ns
+  Low pulse limit: 0.664ns (Tcl)
+  Physical resource: salida_7/CLK
+  Logical resource: salida_7/CK
+  Location pin: SLICE_X6Y11.CLK
+  Clock network: clk_BUFGP
+--------------------------------------------------------------------------------
+Slack: 82.005ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 83.333ns
+  High pulse: 41.666ns
+  High pulse limit: 0.664ns (Tch)
+  Physical resource: salida_7/CLK
+  Logical resource: salida_7/CK
+  Location pin: SLICE_X6Y11.CLK
+  Clock network: clk_BUFGP
+--------------------------------------------------------------------------------
+Slack: 82.005ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 83.333ns
+  Low pulse: 41.666ns
+  Low pulse limit: 0.664ns (Tcl)
+  Physical resource: contador2<3>/CLK
+  Logical resource: contador2_3/CK
+  Location pin: SLICE_X6Y12.CLK
+  Clock network: clk_BUFGP
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    4.644|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 1038 paths, 0 nets, and 282 connections
+
+Design statistics:
+   Minimum period:   4.644ns{1}   (Maximum frequency: 215.332MHz)
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed Thu Sep 06 15:15:00 2018 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 192 MB
+
+
+

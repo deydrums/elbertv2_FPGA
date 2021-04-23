@@ -1,0 +1,9 @@
+V3 3
+FL "C:/Users/David/Documents/FPGA/Primera practica/PrimeraPractica/senales.vhd" 2018/09/06.09:19:43 P.20131013
+EN work/senales 1536268463 \
+      FL "C:/Users/David/Documents/FPGA/Primera practica/PrimeraPractica/senales.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/senales/Behavioral 1536268464 \
+      FL "C:/Users/David/Documents/FPGA/Primera practica/PrimeraPractica/senales.vhd" \
+      EN work/senales 1536268463
