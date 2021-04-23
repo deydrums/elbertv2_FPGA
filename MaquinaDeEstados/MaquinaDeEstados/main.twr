@@ -1,0 +1,546 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf elbertv2.ucf
+
+Design file:              main.ncd
+Physical constraint file: main.pcf
+Device,package,speed:     xc3s50a,tq144,-5 (PRODUCTION 1.42 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+================================================================================
+Timing constraint: NET "clk_BUFGP/IBUFG" PERIOD = 83.3333333 ns HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 5389 paths analyzed, 371 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   7.371ns.
+--------------------------------------------------------------------------------
+
+Paths for end point Inst_Displays/estado_display_1 (SLICE_X9Y22.CE), 24 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     75.962ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_Displays/cont_multiplexacion_4 (FF)
+  Destination:          Inst_Displays/estado_display_1 (FF)
+  Requirement:          83.333ns
+  Data Path Delay:      7.208ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.163ns (0.418 - 0.581)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: Inst_Displays/cont_multiplexacion_4 to Inst_Displays/estado_display_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X22Y2.YQ       Tcko                  0.596   Inst_Displays/cont_multiplexacion<5>
+                                                       Inst_Displays/cont_multiplexacion_4
+    SLICE_X21Y5.F1       net (fanout=2)        0.895   Inst_Displays/cont_multiplexacion<4>
+    SLICE_X21Y5.COUT     Topcyf                1.026   Inst_Displays/estado_enable_cmp_eq0000_wg_cy<1>
+                                                       Inst_Displays/estado_enable_cmp_eq0000_wg_lut<0>
+                                                       Inst_Displays/estado_enable_cmp_eq0000_wg_cy<0>
+                                                       Inst_Displays/estado_enable_cmp_eq0000_wg_cy<1>
+    SLICE_X21Y6.CIN      net (fanout=1)        0.000   Inst_Displays/estado_enable_cmp_eq0000_wg_cy<1>
+    SLICE_X21Y6.COUT     Tbyp                  0.130   Inst_Displays/estado_enable_cmp_eq0000_wg_cy<3>
+                                                       Inst_Displays/estado_enable_cmp_eq0000_wg_cy<2>
+                                                       Inst_Displays/estado_enable_cmp_eq0000_wg_cy<3>
+    SLICE_X21Y7.CIN      net (fanout=1)        0.000   Inst_Displays/estado_enable_cmp_eq0000_wg_cy<3>
+    SLICE_X21Y7.COUT     Tbyp                  0.130   Inst_Displays/estado_enable_cmp_eq0000
+                                                       Inst_Displays/estado_enable_cmp_eq0000_wg_cy<4>
+                                                       Inst_Displays/estado_enable_cmp_eq0000_wg_cy<5>
+    SLICE_X4Y16.G2       net (fanout=27)       2.620   Inst_Displays/estado_enable_cmp_eq0000
+    SLICE_X4Y16.Y        Tilo                  0.616   cuentaamarillo_and0000
+                                                       Inst_Displays/estado_display_and00001
+    SLICE_X9Y22.CE       net (fanout=4)        1.040   Inst_Displays/estado_display_and0000
+    SLICE_X9Y22.CLK      Tceck                 0.155   Inst_Displays/estado_display<1>
+                                                       Inst_Displays/estado_display_1
+    -------------------------------------------------  ---------------------------
+    Total                                      7.208ns (2.653ns logic, 4.555ns route)
+                                                       (36.8% logic, 63.2% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     76.136ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_Displays/cont_multiplexacion_14 (FF)
+  Destination:          Inst_Displays/estado_display_1 (FF)
+  Requirement:          83.333ns
+  Data Path Delay:      7.052ns (Levels of Logic = 3)
+  Clock Path Skew:      -0.145ns (0.418 - 0.563)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: Inst_Displays/cont_multiplexacion_14 to Inst_Displays/estado_display_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X22Y6.YQ       Tcko                  0.596   Inst_Displays/cont_multiplexacion<15>
+                                                       Inst_Displays/cont_multiplexacion_14
+    SLICE_X21Y6.F2       net (fanout=2)        0.869   Inst_Displays/cont_multiplexacion<14>
+    SLICE_X21Y6.COUT     Topcyf                1.026   Inst_Displays/estado_enable_cmp_eq0000_wg_cy<3>
+                                                       Inst_Displays/estado_enable_cmp_eq0000_wg_lut<2>
+                                                       Inst_Displays/estado_enable_cmp_eq0000_wg_cy<2>
+                                                       Inst_Displays/estado_enable_cmp_eq0000_wg_cy<3>
+    SLICE_X21Y7.CIN      net (fanout=1)        0.000   Inst_Displays/estado_enable_cmp_eq0000_wg_cy<3>
+    SLICE_X21Y7.COUT     Tbyp                  0.130   Inst_Displays/estado_enable_cmp_eq0000
+                                                       Inst_Displays/estado_enable_cmp_eq0000_wg_cy<4>
+                                                       Inst_Displays/estado_enable_cmp_eq0000_wg_cy<5>
+    SLICE_X4Y16.G2       net (fanout=27)       2.620   Inst_Displays/estado_enable_cmp_eq0000
+    SLICE_X4Y16.Y        Tilo                  0.616   cuentaamarillo_and0000
+                                                       Inst_Displays/estado_display_and00001
+    SLICE_X9Y22.CE       net (fanout=4)        1.040   Inst_Displays/estado_display_and0000
+    SLICE_X9Y22.CLK      Tceck                 0.155   Inst_Displays/estado_display<1>
+                                                       Inst_Displays/estado_display_1
+    -------------------------------------------------  ---------------------------
+    Total                                      7.052ns (2.523ns logic, 4.529ns route)
+                                                       (35.8% logic, 64.2% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     76.182ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               Inst_Displays/cont_multiplexacion_6 (FF)
+  Destination:          Inst_Displays/estado_display_1 (FF)
+  Requirement:          83.333ns
+  Data Path Delay:      6.988ns (Levels of Logic = 4)
+  Clock Path Skew:      -0.163ns (0.418 - 0.581)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: Inst_Displays/cont_multiplexacion_6 to Inst_Displays/estado_display_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X22Y3.YQ       Tcko                  0.596   Inst_Displays/cont_multiplexacion<7>
+                                                       Inst_Displays/cont_multiplexacion_6
+    SLICE_X21Y5.F2       net (fanout=2)        0.675   Inst_Displays/cont_multiplexacion<6>
+    SLICE_X21Y5.COUT     Topcyf                1.026   Inst_Displays/estado_enable_cmp_eq0000_wg_cy<1>
+                                                       Inst_Displays/estado_enable_cmp_eq0000_wg_lut<0>
+                                                       Inst_Displays/estado_enable_cmp_eq0000_wg_cy<0>
+                                                       Inst_Displays/estado_enable_cmp_eq0000_wg_cy<1>
+    SLICE_X21Y6.CIN      net (fanout=1)        0.000   Inst_Displays/estado_enable_cmp_eq0000_wg_cy<1>
+    SLICE_X21Y6.COUT     Tbyp                  0.130   Inst_Displays/estado_enable_cmp_eq0000_wg_cy<3>
+                                                       Inst_Displays/estado_enable_cmp_eq0000_wg_cy<2>
+                                                       Inst_Displays/estado_enable_cmp_eq0000_wg_cy<3>
+    SLICE_X21Y7.CIN      net (fanout=1)        0.000   Inst_Displays/estado_enable_cmp_eq0000_wg_cy<3>
+    SLICE_X21Y7.COUT     Tbyp                  0.130   Inst_Displays/estado_enable_cmp_eq0000
+                                                       Inst_Displays/estado_enable_cmp_eq0000_wg_cy<4>
+                                                       Inst_Displays/estado_enable_cmp_eq0000_wg_cy<5>
+    SLICE_X4Y16.G2       net (fanout=27)       2.620   Inst_Displays/estado_enable_cmp_eq0000
+    SLICE_X4Y16.Y        Tilo                  0.616   cuentaamarillo_and0000
+                                                       Inst_Displays/estado_display_and00001
+    SLICE_X9Y22.CE       net (fanout=4)        1.040   Inst_Displays/estado_display_and0000
+    SLICE_X9Y22.CLK      Tceck                 0.155   Inst_Displays/estado_display<1>
+                                                       Inst_Displays/estado_display_1
+    -------------------------------------------------  ---------------------------
+    Total                                      6.988ns (2.653ns logic, 4.335ns route)
+                                                       (38.0% logic, 62.0% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point unidades_1 (SLICE_X12Y14.F2), 58 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     76.052ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               cuenta_0 (FF)
+  Destination:          unidades_1 (FF)
+  Requirement:          83.333ns
+  Data Path Delay:      7.146ns (Levels of Logic = 5)
+  Clock Path Skew:      -0.135ns (0.202 - 0.337)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: cuenta_0 to unidades_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X7Y2.XQ        Tcko                  0.495   cuenta<0>
+                                                       cuenta_0
+    SLICE_X6Y7.G4        net (fanout=4)        1.057   cuenta<0>
+    SLICE_X6Y7.Y         Tilo                  0.616   N12
+                                                       State_cmp_eq00001121
+    SLICE_X6Y7.F1        net (fanout=1)        0.342   State_cmp_eq00001121/O
+    SLICE_X6Y7.X         Tilo                  0.601   N12
+                                                       State_cmp_eq0000146
+    SLICE_X9Y12.G3       net (fanout=3)        1.148   N12
+    SLICE_X9Y12.Y        Tilo                  0.561   unidades_mux0001<2>4
+                                                       State_cmp_eq000119
+    SLICE_X9Y12.F3       net (fanout=7)        0.083   State_cmp_eq0001
+    SLICE_X9Y12.X        Tilo                  0.562   unidades_mux0001<2>4
+                                                       unidades_mux0001<2>4
+    SLICE_X12Y14.F2      net (fanout=1)        1.025   unidades_mux0001<2>4
+    SLICE_X12Y14.CLK     Tfck                  0.656   unidades<1>
+                                                       unidades_mux0001<2>53
+                                                       unidades_1
+    -------------------------------------------------  ---------------------------
+    Total                                      7.146ns (3.491ns logic, 3.655ns route)
+                                                       (48.9% logic, 51.1% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     76.104ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               cuenta_0 (FF)
+  Destination:          unidades_1 (FF)
+  Requirement:          83.333ns
+  Data Path Delay:      7.094ns (Levels of Logic = 5)
+  Clock Path Skew:      -0.135ns (0.202 - 0.337)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: cuenta_0 to unidades_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X7Y2.XQ        Tcko                  0.495   cuenta<0>
+                                                       cuenta_0
+    SLICE_X6Y7.G4        net (fanout=4)        1.057   cuenta<0>
+    SLICE_X6Y7.Y         Tilo                  0.616   N12
+                                                       State_cmp_eq00001121
+    SLICE_X6Y7.F1        net (fanout=1)        0.342   State_cmp_eq00001121/O
+    SLICE_X6Y7.X         Tilo                  0.601   N12
+                                                       State_cmp_eq0000146
+    SLICE_X8Y12.G4       net (fanout=3)        0.937   N12
+    SLICE_X8Y12.Y        Tilo                  0.616   decenas_mux0001<3>0
+                                                       State_cmp_eq000246
+    SLICE_X9Y12.F1       net (fanout=6)        0.187   State_cmp_eq0002
+    SLICE_X9Y12.X        Tilo                  0.562   unidades_mux0001<2>4
+                                                       unidades_mux0001<2>4
+    SLICE_X12Y14.F2      net (fanout=1)        1.025   unidades_mux0001<2>4
+    SLICE_X12Y14.CLK     Tfck                  0.656   unidades<1>
+                                                       unidades_mux0001<2>53
+                                                       unidades_1
+    -------------------------------------------------  ---------------------------
+    Total                                      7.094ns (3.546ns logic, 3.548ns route)
+                                                       (50.0% logic, 50.0% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     76.311ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               cuenta_7 (FF)
+  Destination:          unidades_1 (FF)
+  Requirement:          83.333ns
+  Data Path Delay:      6.892ns (Levels of Logic = 5)
+  Clock Path Skew:      -0.130ns (0.202 - 0.332)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: cuenta_7 to unidades_1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X7Y5.YQ        Tcko                  0.524   cuenta<6>
+                                                       cuenta_7
+    SLICE_X6Y7.G3        net (fanout=4)        0.774   cuenta<7>
+    SLICE_X6Y7.Y         Tilo                  0.616   N12
+                                                       State_cmp_eq00001121
+    SLICE_X6Y7.F1        net (fanout=1)        0.342   State_cmp_eq00001121/O
+    SLICE_X6Y7.X         Tilo                  0.601   N12
+                                                       State_cmp_eq0000146
+    SLICE_X9Y12.G3       net (fanout=3)        1.148   N12
+    SLICE_X9Y12.Y        Tilo                  0.561   unidades_mux0001<2>4
+                                                       State_cmp_eq000119
+    SLICE_X9Y12.F3       net (fanout=7)        0.083   State_cmp_eq0001
+    SLICE_X9Y12.X        Tilo                  0.562   unidades_mux0001<2>4
+                                                       unidades_mux0001<2>4
+    SLICE_X12Y14.F2      net (fanout=1)        1.025   unidades_mux0001<2>4
+    SLICE_X12Y14.CLK     Tfck                  0.656   unidades<1>
+                                                       unidades_mux0001<2>53
+                                                       unidades_1
+    -------------------------------------------------  ---------------------------
+    Total                                      6.892ns (3.520ns logic, 3.372ns route)
+                                                       (51.1% logic, 48.9% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point unidades_3 (SLICE_X12Y16.F4), 29 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     76.096ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               cuenta_0 (FF)
+  Destination:          unidades_3 (FF)
+  Requirement:          83.333ns
+  Data Path Delay:      7.101ns (Levels of Logic = 5)
+  Clock Path Skew:      -0.136ns (0.201 - 0.337)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: cuenta_0 to unidades_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X7Y2.XQ        Tcko                  0.495   cuenta<0>
+                                                       cuenta_0
+    SLICE_X6Y7.G4        net (fanout=4)        1.057   cuenta<0>
+    SLICE_X6Y7.Y         Tilo                  0.616   N12
+                                                       State_cmp_eq00001121
+    SLICE_X6Y7.F1        net (fanout=1)        0.342   State_cmp_eq00001121/O
+    SLICE_X6Y7.X         Tilo                  0.601   N12
+                                                       State_cmp_eq0000146
+    SLICE_X9Y12.G3       net (fanout=3)        1.148   N12
+    SLICE_X9Y12.Y        Tilo                  0.561   unidades_mux0001<2>4
+                                                       State_cmp_eq000119
+    SLICE_X12Y16.G4      net (fanout=7)        0.974   State_cmp_eq0001
+    SLICE_X12Y16.Y       Tilo                  0.616   unidades<3>
+                                                       decenas_mux0001<3>211
+    SLICE_X12Y16.F4      net (fanout=1)        0.035   decenas_mux0001<3>211/O
+    SLICE_X12Y16.CLK     Tfck                  0.656   unidades<3>
+                                                       unidades_mux0001<0>
+                                                       unidades_3
+    -------------------------------------------------  ---------------------------
+    Total                                      7.101ns (3.545ns logic, 3.556ns route)
+                                                       (49.9% logic, 50.1% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     76.355ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               cuenta_7 (FF)
+  Destination:          unidades_3 (FF)
+  Requirement:          83.333ns
+  Data Path Delay:      6.847ns (Levels of Logic = 5)
+  Clock Path Skew:      -0.131ns (0.201 - 0.332)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: cuenta_7 to unidades_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X7Y5.YQ        Tcko                  0.524   cuenta<6>
+                                                       cuenta_7
+    SLICE_X6Y7.G3        net (fanout=4)        0.774   cuenta<7>
+    SLICE_X6Y7.Y         Tilo                  0.616   N12
+                                                       State_cmp_eq00001121
+    SLICE_X6Y7.F1        net (fanout=1)        0.342   State_cmp_eq00001121/O
+    SLICE_X6Y7.X         Tilo                  0.601   N12
+                                                       State_cmp_eq0000146
+    SLICE_X9Y12.G3       net (fanout=3)        1.148   N12
+    SLICE_X9Y12.Y        Tilo                  0.561   unidades_mux0001<2>4
+                                                       State_cmp_eq000119
+    SLICE_X12Y16.G4      net (fanout=7)        0.974   State_cmp_eq0001
+    SLICE_X12Y16.Y       Tilo                  0.616   unidades<3>
+                                                       decenas_mux0001<3>211
+    SLICE_X12Y16.F4      net (fanout=1)        0.035   decenas_mux0001<3>211/O
+    SLICE_X12Y16.CLK     Tfck                  0.656   unidades<3>
+                                                       unidades_mux0001<0>
+                                                       unidades_3
+    -------------------------------------------------  ---------------------------
+    Total                                      6.847ns (3.574ns logic, 3.273ns route)
+                                                       (52.2% logic, 47.8% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     76.479ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               cuenta_14 (FF)
+  Destination:          unidades_3 (FF)
+  Requirement:          83.333ns
+  Data Path Delay:      6.741ns (Levels of Logic = 5)
+  Clock Path Skew:      -0.113ns (0.201 - 0.314)
+  Source Clock:         clk_BUFGP rising at 0.000ns
+  Destination Clock:    clk_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: cuenta_14 to unidades_3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X7Y9.XQ        Tcko                  0.495   cuenta<14>
+                                                       cuenta_14
+    SLICE_X6Y7.G2        net (fanout=4)        0.697   cuenta<14>
+    SLICE_X6Y7.Y         Tilo                  0.616   N12
+                                                       State_cmp_eq00001121
+    SLICE_X6Y7.F1        net (fanout=1)        0.342   State_cmp_eq00001121/O
+    SLICE_X6Y7.X         Tilo                  0.601   N12
+                                                       State_cmp_eq0000146
+    SLICE_X9Y12.G3       net (fanout=3)        1.148   N12
+    SLICE_X9Y12.Y        Tilo                  0.561   unidades_mux0001<2>4
+                                                       State_cmp_eq000119
+    SLICE_X12Y16.G4      net (fanout=7)        0.974   State_cmp_eq0001
+    SLICE_X12Y16.Y       Tilo                  0.616   unidades<3>
+                                                       decenas_mux0001<3>211
+    SLICE_X12Y16.F4      net (fanout=1)        0.035   decenas_mux0001<3>211/O
+    SLICE_X12Y16.CLK     Tfck                  0.656   unidades<3>
+                                                       unidades_mux0001<0>
+                                                       unidades_3
+    -------------------------------------------------  ---------------------------
+    Total                                      6.741ns (3.545ns logic, 3.196ns route)
+                                                       (52.6% logic, 47.4% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: NET "clk_BUFGP/IBUFG" PERIOD = 83.3333333 ns HIGH 50%;
+--------------------------------------------------------------------------------
+
+Paths for end point Inst_Displays/estado_enable_FSM_FFd1 (SLICE_X5Y24.BX), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.879ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               Inst_Displays/estado_enable_FSM_FFd3 (FF)
+  Destination:          Inst_Displays/estado_enable_FSM_FFd1 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.883ns (Levels of Logic = 0)
+  Clock Path Skew:      0.004ns (0.024 - 0.020)
+  Source Clock:         clk_BUFGP rising at 83.333ns
+  Destination Clock:    clk_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: Inst_Displays/estado_enable_FSM_FFd3 to Inst_Displays/estado_enable_FSM_FFd1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X4Y24.YQ       Tcko                  0.477   Inst_Displays/estado_enable_FSM_FFd4
+                                                       Inst_Displays/estado_enable_FSM_FFd3
+    SLICE_X5Y24.BX       net (fanout=9)        0.344   Inst_Displays/estado_enable_FSM_FFd3
+    SLICE_X5Y24.CLK      Tckdi       (-Th)    -0.062   Inst_Displays/estado_enable_FSM_FFd1
+                                                       Inst_Displays/estado_enable_FSM_FFd1
+    -------------------------------------------------  ---------------------------
+    Total                                      0.883ns (0.539ns logic, 0.344ns route)
+                                                       (61.0% logic, 39.0% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point amarillo (SLICE_X4Y11.BY), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      0.954ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               amarillo (FF)
+  Destination:          amarillo (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      0.954ns (Levels of Logic = 0)
+  Clock Path Skew:      0.000ns
+  Source Clock:         clk_BUFGP rising at 83.333ns
+  Destination Clock:    clk_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: amarillo to amarillo
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X4Y11.YQ       Tcko                  0.477   amarillo
+                                                       amarillo
+    SLICE_X4Y11.BY       net (fanout=3)        0.340   amarillo
+    SLICE_X4Y11.CLK      Tckdi       (-Th)    -0.137   amarillo
+                                                       amarillo
+    -------------------------------------------------  ---------------------------
+    Total                                      0.954ns (0.614ns logic, 0.340ns route)
+                                                       (64.4% logic, 35.6% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point Inst_Displays/estado_enable_FSM_FFd3 (SLICE_X4Y24.BY), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      1.058ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               Inst_Displays/estado_enable_FSM_FFd2 (FF)
+  Destination:          Inst_Displays/estado_enable_FSM_FFd3 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      1.062ns (Levels of Logic = 0)
+  Clock Path Skew:      0.004ns (0.024 - 0.020)
+  Source Clock:         clk_BUFGP rising at 83.333ns
+  Destination Clock:    clk_BUFGP rising at 83.333ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: Inst_Displays/estado_enable_FSM_FFd2 to Inst_Displays/estado_enable_FSM_FFd3
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X5Y24.YQ       Tcko                  0.419   Inst_Displays/estado_enable_FSM_FFd1
+                                                       Inst_Displays/estado_enable_FSM_FFd2
+    SLICE_X4Y24.BY       net (fanout=9)        0.506   Inst_Displays/estado_enable_FSM_FFd2
+    SLICE_X4Y24.CLK      Tckdi       (-Th)    -0.137   Inst_Displays/estado_enable_FSM_FFd4
+                                                       Inst_Displays/estado_enable_FSM_FFd3
+    -------------------------------------------------  ---------------------------
+    Total                                      1.062ns (0.556ns logic, 0.506ns route)
+                                                       (52.4% logic, 47.6% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: NET "clk_BUFGP/IBUFG" PERIOD = 83.3333333 ns HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 82.005ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 83.333ns
+  Low pulse: 41.666ns
+  Low pulse limit: 0.664ns (Tcl)
+  Physical resource: conta_retraso<7>/CLK
+  Logical resource: conta_retraso_7/CK
+  Location pin: SLICE_X22Y18.CLK
+  Clock network: clk_BUFGP
+--------------------------------------------------------------------------------
+Slack: 82.005ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 83.333ns
+  High pulse: 41.666ns
+  High pulse limit: 0.664ns (Tch)
+  Physical resource: conta_retraso<7>/CLK
+  Logical resource: conta_retraso_7/CK
+  Location pin: SLICE_X22Y18.CLK
+  Clock network: clk_BUFGP
+--------------------------------------------------------------------------------
+Slack: 82.005ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 83.333ns
+  Low pulse: 41.666ns
+  Low pulse limit: 0.664ns (Tcl)
+  Physical resource: conta_retraso<7>/CLK
+  Logical resource: conta_retraso_6/CK
+  Location pin: SLICE_X22Y18.CLK
+  Clock network: clk_BUFGP
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    7.371|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 5389 paths, 0 nets, and 760 connections
+
+Design statistics:
+   Minimum period:   7.371ns{1}   (Maximum frequency: 135.667MHz)
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed Tue Mar 19 22:49:09 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4522 MB
+
+
+

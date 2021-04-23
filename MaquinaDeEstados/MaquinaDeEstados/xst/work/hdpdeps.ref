@@ -1,0 +1,15 @@
+V3 7
+FL C:/Users/David/Desktop/MaquinaDeEstados/MaquinaDeEstados/displays.vhd 2019/03/16.22:30:27 P.20131013
+EN work/displays 1553057305 \
+      FL C:/Users/David/Desktop/MaquinaDeEstados/MaquinaDeEstados/displays.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/displays/Behavioral 1553057306 \
+      FL C:/Users/David/Desktop/MaquinaDeEstados/MaquinaDeEstados/displays.vhd \
+      EN work/displays 1553057305
+FL C:/Users/David/Desktop/MaquinaDeEstados/MaquinaDeEstados/main.vhd 2019/03/19.22:48:22 P.20131013
+EN work/main 1553057307 \
+      FL C:/Users/David/Desktop/MaquinaDeEstados/MaquinaDeEstados/main.vhd \
+      PB ieee/std_logic_1164 1381692176
+AR work/main/Behavioral 1553057308 \
+      FL C:/Users/David/Desktop/MaquinaDeEstados/MaquinaDeEstados/main.vhd \
+      EN work/main 1553057307 CP displays

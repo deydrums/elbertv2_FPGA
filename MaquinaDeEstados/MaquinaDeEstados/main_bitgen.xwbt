@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\David\Desktop\MaquinaDeEstados\MaquinaDeEstados\main.ncd
+OUTFILE=C:\Users\David\Desktop\MaquinaDeEstados\MaquinaDeEstados\main.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-5tq144
+WORKINGDIR=C:\Users\David\Desktop\MaquinaDeEstados\MaquinaDeEstados
+LICENSE=WebPack
+USER_INFO=__0_0_0
