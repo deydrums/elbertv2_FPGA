@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\David\Documents\FPGA\CLASE2\Ejemplo\main.ncd
+OUTFILE=C:\Users\David\Documents\FPGA\CLASE2\Ejemplo\main.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-5tq144
+WORKINGDIR=C:\Users\David\Documents\FPGA\CLASE2\Ejemplo
+LICENSE=WebPack
+USER_INFO=__0_0_0

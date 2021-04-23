@@ -1,0 +1,23 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Mar 05 15:35:52 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+CONFIG VCCAUX = "3.3";
+COMP "CG<0>" LOCATE = SITE "P47" LEVEL 1;
+COMP "CG<1>" LOCATE = SITE "P48" LEVEL 1;
+COMP "Set<0>" LOCATE = SITE "P70" LEVEL 1;
+COMP "Set<1>" LOCATE = SITE "P69" LEVEL 1;
+COMP "Set<2>" LOCATE = SITE "P68" LEVEL 1;
+COMP "Set<3>" LOCATE = SITE "P64" LEVEL 1;
+COMP "Set<4>" LOCATE = SITE "P63" LEVEL 1;
+COMP "Set<5>" LOCATE = SITE "P60" LEVEL 1;
+COMP "Set<6>" LOCATE = SITE "P59" LEVEL 1;
+COMP "Set<7>" LOCATE = SITE "P58" LEVEL 1;
+COMP "LED" LOCATE = SITE "P46" LEVEL 1;
+COMP "Pwm" LOCATE = SITE "P31" LEVEL 1;
+COMP "Sw" LOCATE = SITE "P80" LEVEL 1;
+COMP "Clk" LOCATE = SITE "P129" LEVEL 1;
+NET "Clk_BUFGP/IBUFG" PERIOD = 83.3333333 ns HIGH 50%;
+SCHEMATIC END;
+

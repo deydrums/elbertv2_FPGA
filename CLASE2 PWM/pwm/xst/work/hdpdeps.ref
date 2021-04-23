@@ -1,0 +1,7 @@
+V3 3
+FL "C:/Users/David/Documents/FPGA/CLASE2 PWM/pwm/main.vhd" 2019/03/05.15:32:31 P.20131013
+EN work/main 1551821736 \
+      FL "C:/Users/David/Documents/FPGA/CLASE2 PWM/pwm/main.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/main/Behavioral 1551821737 \
+      FL "C:/Users/David/Documents/FPGA/CLASE2 PWM/pwm/main.vhd" EN work/main 1551821736

@@ -1,0 +1,465 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.38 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.38 secs
+ 
+--> Reading design: main.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "main.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "main"
+Output Format                      : NGC
+Target Device                      : xc3s50a-5-tq144
+
+---- Source Options
+Top Module Name                    : main
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/David/Documents/FPGA/CLASE2/displays.vhd" in Library work.
+Entity <displays> compiled.
+Entity <displays> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/David/Documents/FPGA/CLASE2/main.vhd" in Library work.
+Entity <main> compiled.
+Entity <main> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <main> in library <work> (architecture <Behavioral>).
+
+Analyzing hierarchy for entity <displays> in library <work> (architecture <Behavioral>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <main> in library <work> (Architecture <Behavioral>).
+Entity <main> analyzed. Unit <main> generated.
+
+Analyzing Entity <displays> in library <work> (Architecture <Behavioral>).
+Entity <displays> analyzed. Unit <displays> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <displays>.
+    Related source file is "C:/Users/David/Documents/FPGA/CLASE2/displays.vhd".
+    Found finite state machine <FSM_0> for signal <estado_enable>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 4                                              |
+    | Inputs             | 0                                              |
+    | Outputs            | 4                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Clock enable       | estado_enable$cmp_eq0000  (positive)           |
+    | Reset              | reset                     (negative)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 111                                            |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 16x8-bit ROM for signal <Display$mux0001> created at line 83.
+    Found 8-bit register for signal <Display>.
+    Found 24-bit up counter for signal <cont_multiplexacion>.
+    Found 4-bit register for signal <estado_display>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 ROM(s).
+	inferred   1 Counter(s).
+	inferred  12 D-type flip-flop(s).
+Unit <displays> synthesized.
+
+
+Synthesizing Unit <main>.
+    Related source file is "C:/Users/David/Documents/FPGA/CLASE2/main.vhd".
+    Found 4-bit up counter for signal <centenas>.
+    Found 4-bit comparator lessequal for signal <centenas$cmp_le0000> created at line 129.
+    Found 24-bit up counter for signal <conteo>.
+    Found 4-bit up counter for signal <decenas>.
+    Found 4-bit comparator lessequal for signal <decenas$cmp_le0000> created at line 124.
+    Found 1-bit register for signal <flag>.
+    Found 4-bit up counter for signal <unidades>.
+    Found 4-bit comparator lessequal for signal <unidades$cmp_le0000> created at line 119.
+    Summary:
+	inferred   4 Counter(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   3 Comparator(s).
+Unit <main> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x8-bit ROM                                          : 1
+# Counters                                             : 5
+ 24-bit up counter                                     : 2
+ 4-bit up counter                                      : 3
+# Registers                                            : 3
+ 1-bit register                                        : 1
+ 4-bit register                                        : 1
+ 8-bit register                                        : 1
+# Comparators                                          : 3
+ 4-bit comparator lessequal                            : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <Inst_Displays/estado_enable/FSM> on signal <estado_enable[1:4]> with one-hot encoding.
+-------------------
+ State | Encoding
+-------------------
+ 111   | 0001
+ 101   | 0010
+ 110   | 0100
+ 011   | 1000
+-------------------
+
+Synthesizing (advanced) Unit <displays>.
+INFO:Xst:3034 - In order to maximize performance and save block RAM resources, the small ROM <Mrom_Display_mux0001> will be implemented on LUT. If you want to force its implementation on block, use option/constraint rom_style.
+Unit <displays> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# ROMs                                                 : 1
+ 16x8-bit ROM                                          : 1
+# Counters                                             : 5
+ 24-bit up counter                                     : 2
+ 4-bit up counter                                      : 3
+# Registers                                            : 13
+ Flip-Flops                                            : 13
+# Comparators                                          : 3
+ 4-bit comparator lessequal                            : 3
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <Display_7> (without init value) has a constant value of 1 in block <displays>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <main> ...
+
+Optimizing unit <displays> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block main, actual ratio is 11.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 76
+ Flip-Flops                                            : 76
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : main.ngr
+Top Level Output File Name         : main
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 14
+
+Cell Usage :
+# BELS                             : 260
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 46
+#      LUT2                        : 53
+#      LUT3                        : 7
+#      LUT4                        : 43
+#      MUXCY                       : 58
+#      VCC                         : 1
+#      XORCY                       : 48
+# FlipFlops/Latches                : 76
+#      FDC                         : 48
+#      FDCE                        : 15
+#      FDE                         : 12
+#      FDPE                        : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 13
+#      IBUF                        : 2
+#      OBUF                        : 11
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s50atq144-5 
+
+ Number of Slices:                       81  out of    704    11%  
+ Number of Slice Flip Flops:             76  out of   1408     5%  
+ Number of 4 input LUTs:                152  out of   1408    10%  
+ Number of IOs:                          14
+ Number of bonded IOBs:                  14  out of    108    12%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 76    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+----------------------------------------------------------------+------------------------------------------+-------+
+Control Signal                                                  | Buffer(FF name)                          | Load  |
+----------------------------------------------------------------+------------------------------------------+-------+
+Inst_Displays/estado_enable_FSM_Acst_FSM_inv(reset_inv1_INV_0:O)| NONE(Inst_Displays/cont_multiplexacion_0)| 64    |
+----------------------------------------------------------------+------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: 5.268ns (Maximum Frequency: 189.827MHz)
+   Minimum input arrival time before clock: 3.707ns
+   Maximum output required time after clock: 6.710ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 5.268ns (frequency: 189.827MHz)
+  Total number of paths / destination ports: 2147 / 96
+-------------------------------------------------------------------------
+Delay:               5.268ns (Levels of Logic = 25)
+  Source:            conteo_1 (FF)
+  Destination:       conteo_23 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: conteo_1 to conteo_23
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.495   0.488  conteo_1 (conteo_1)
+     LUT1:I0->O            1   0.561   0.000  Mcount_conteo_cy<1>_rt (Mcount_conteo_cy<1>_rt)
+     MUXCY:S->O            1   0.523   0.000  Mcount_conteo_cy<1> (Mcount_conteo_cy<1>)
+     MUXCY:CI->O           1   0.065   0.000  Mcount_conteo_cy<2> (Mcount_conteo_cy<2>)
+     MUXCY:CI->O           1   0.065   0.000  Mcount_conteo_cy<3> (Mcount_conteo_cy<3>)
+     MUXCY:CI->O           1   0.065   0.000  Mcount_conteo_cy<4> (Mcount_conteo_cy<4>)
+     MUXCY:CI->O           1   0.065   0.000  Mcount_conteo_cy<5> (Mcount_conteo_cy<5>)
+     MUXCY:CI->O           1   0.065   0.000  Mcount_conteo_cy<6> (Mcount_conteo_cy<6>)
+     MUXCY:CI->O           1   0.065   0.000  Mcount_conteo_cy<7> (Mcount_conteo_cy<7>)
+     MUXCY:CI->O           1   0.065   0.000  Mcount_conteo_cy<8> (Mcount_conteo_cy<8>)
+     MUXCY:CI->O           1   0.065   0.000  Mcount_conteo_cy<9> (Mcount_conteo_cy<9>)
+     MUXCY:CI->O           1   0.065   0.000  Mcount_conteo_cy<10> (Mcount_conteo_cy<10>)
+     MUXCY:CI->O           1   0.065   0.000  Mcount_conteo_cy<11> (Mcount_conteo_cy<11>)
+     MUXCY:CI->O           1   0.065   0.000  Mcount_conteo_cy<12> (Mcount_conteo_cy<12>)
+     MUXCY:CI->O           1   0.065   0.000  Mcount_conteo_cy<13> (Mcount_conteo_cy<13>)
+     MUXCY:CI->O           1   0.065   0.000  Mcount_conteo_cy<14> (Mcount_conteo_cy<14>)
+     MUXCY:CI->O           1   0.065   0.000  Mcount_conteo_cy<15> (Mcount_conteo_cy<15>)
+     MUXCY:CI->O           1   0.065   0.000  Mcount_conteo_cy<16> (Mcount_conteo_cy<16>)
+     MUXCY:CI->O           1   0.065   0.000  Mcount_conteo_cy<17> (Mcount_conteo_cy<17>)
+     MUXCY:CI->O           1   0.065   0.000  Mcount_conteo_cy<18> (Mcount_conteo_cy<18>)
+     MUXCY:CI->O           1   0.065   0.000  Mcount_conteo_cy<19> (Mcount_conteo_cy<19>)
+     MUXCY:CI->O           1   0.065   0.000  Mcount_conteo_cy<20> (Mcount_conteo_cy<20>)
+     MUXCY:CI->O           1   0.065   0.000  Mcount_conteo_cy<21> (Mcount_conteo_cy<21>)
+     MUXCY:CI->O           0   0.065   0.000  Mcount_conteo_cy<22> (Mcount_conteo_cy<22>)
+     XORCY:CI->O           1   0.654   0.423  Mcount_conteo_xor<23> (Result<23>)
+     LUT2:I1->O            1   0.562   0.000  Mcount_conteo_eqn_231 (Mcount_conteo_eqn_23)
+     FDC:D                     0.197          conteo_23
+    ----------------------------------------
+    Total                      5.268ns (4.357ns logic, 0.911ns route)
+                                       (82.7% logic, 17.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 26 / 25
+-------------------------------------------------------------------------
+Offset:              3.707ns (Levels of Logic = 3)
+  Source:            cont_up (PAD)
+  Destination:       centenas_0 (FF)
+  Destination Clock: clk rising
+
+  Data Path: cont_up to centenas_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   0.824   0.565  cont_up_IBUF (cont_up_IBUF)
+     LUT4:I1->O            5   0.562   0.540  centenas_not00033 (decenas_not0003)
+     LUT4:I3->O            4   0.561   0.499  centenas_not0003 (centenas_not0003)
+     FDCE:CE                   0.156          centenas_0
+    ----------------------------------------
+    Total                      3.707ns (2.103ns logic, 1.604ns route)
+                                       (56.7% logic, 43.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 16 / 10
+-------------------------------------------------------------------------
+Offset:              6.710ns (Levels of Logic = 2)
+  Source:            Inst_Displays/estado_enable_FSM_FFd3 (FF)
+  Destination:       Enable<2> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: Inst_Displays/estado_enable_FSM_FFd3 to Enable<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCE:C->Q            11   0.495   0.901  Inst_Displays/estado_enable_FSM_FFd3 (Inst_Displays/estado_enable_FSM_FFd3)
+     LUT3:I0->O            1   0.561   0.357  Inst_Displays/estado_enable_or00021 (Enable_0_OBUF)
+     OBUF:I->O                 4.396          Enable_0_OBUF (Enable<0>)
+    ----------------------------------------
+    Total                      6.710ns (5.452ns logic, 1.258ns route)
+                                       (81.3% logic, 18.7% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 8.40 secs
+ 
+--> 
+
+Total memory usage is 4550128 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

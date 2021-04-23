@@ -1,0 +1,7 @@
+V3 3
+FL C:/Users/David/Documents/FPGA/CLASE1/main.vhd 2019/02/26.15:29:01 P.20131013
+EN work/main 1551216547 FL C:/Users/David/Documents/FPGA/CLASE1/main.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/main/Behavioral 1551216548 \
+      FL C:/Users/David/Documents/FPGA/CLASE1/main.vhd EN work/main 1551216547
